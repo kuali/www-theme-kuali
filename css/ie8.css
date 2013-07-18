@@ -1,0 +1,82 @@
+/**
+ *  GLOBAL STYLES
+ *
+ **/
+#header-wrapper #header-content{
+	}
+#header-wrapper #header-content #top-secondary-wrapper{
+	width: 230px;
+	top: -15px;
+	}
+#header-wrapper #header-content #top-secondary-wrapper,
+#header-wrapper #header-content #about-wrapper{
+	top: 0;
+	margin-top: 0;
+	}
+#header-wrapper #header-content #top-secondary-wrapper #top-secondary-nav{
+	background-color: #6C0005;
+	}
+#header-wrapper #header-content #top-secondary-wrapper #top-secondary-nav ul{
+	position: relative;
+	top: 20px;
+	float: left;
+	}
+#header-wrapper #header-content #nav{
+	top: 5em;
+	}
+#header-wrapper #header-content #top-secondary-wrapper #top-secondary-nav ul li{
+	float: left;
+	}
+#header-wrapper #header-content #top-secondary-wrapper #top-secondary-nav ul li a{
+	float: left;
+	}
+#header-wrapper #header-content #about-wrapper{
+	top: 1px;
+	}
+#header-wrapper #header-content #logo{
+	margin: 20px 0 15px 0;
+	}
+#header-wrapper #header-content #logo h1 a.header{
+	width: 220px;
+	height: 60px;
+	background: url(../images/kuali-logo-rgb-shadow_half.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	display: block;
+	}
+#header-wrapper #header-content #tagline{
+	background: url(../images/kuali-tagline_half.png);
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block{
+	position: relative;
+}
+#header-wrapper #header-content #nav ul li div.tier-2-nav{
+	border-left: solid 1px #777;
+	border-right: solid 1px #777;
+	border-bottom: solid 1px #777;
+	}
+
+/**
+ *  FOOTER
+ */
+#footer-outer-wrapper #footer-inner-wrapper #footer-content #footer-contact #social-network-connect hr{
+	clear: both;
+	height: 0;
+	width: 260px;
+	}
+#footer-outer-wrapper{
+	width: 100%;
+	top: 0;
+	position: relative;
+	z-index: 1;
+	}
+#footer-outer-wrapper #footer-spacer{
+	display: none;
+}
+/*
+#content-outer-wrapper #content-inner-wrapper,
+#content-outer-wrapper #content-inner-wrapper #content-block,
+#footer-outer-wrapper{
+	z-index: 1;
+	}
+*/

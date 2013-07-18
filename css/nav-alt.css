@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* Second-tier list */
+#header-wrapper #header-content #nav ul li div.tier-2-nav{
+	border-radius: 0.75em;
+	/*
+	border-bottom-left-radius: 0.75em;
+	border-bottom-right-radius: 0.75em;
+	border: solid 1px #333;
+	*/
+	background-color: #F4F4F4;
+	width: 625px;
+	padding: 0.75em;
+	position: relative;
+/*
+	-moz-box-shadow: 0 6px 4px #000;
+	-webkit-box-shadow: 0 6px 4px #000;
+*/
+	box-shadow: 0 10px 8px 2px #555;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav{
+	left: -7em;
+	}
+#header-wrapper #header-content #nav ul li#community div.tier-2-nav{
+	left: -15em;
+	}
+#header-wrapper #header-content #nav ul li#join div.tier-2-nav{
+	left: -30em;
+	}
+#header-wrapper #header-content #nav ul li div.tier-2-nav{
+	display: none;
+	position: relative;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav{
+	display: block;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul{
+	background-color: #F4F4F4;
+	}
+#header-wrapper #header-content #nav ul li ul li{
+	float: none;
+	background: none;
+	}
+/*
+#header-wrapper #header-content #nav ul li ul li a,
+#header-wrapper #header-content #nav ul li ul li a:hover,
+#header-wrapper #header-content #nav ul li ul li:hover a,
+#header-wrapper #header-content #nav ul li:hover ul li a
+{
+*/
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul{
+	width: 290px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li,
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li a{
+	background: none;
+	text-shadow: none;
+	color: #888;
+	font-size: 1em;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+	border: none;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li a{
+	padding: 0.75em;
+	line-height: 1.35em;
+	background-image: none;
+
+	-moz-transition: background 0.30s ease-in-out, color 0.20s ease-in-out;
+	-webkit-transition: background  0.30s ease-in-out, color 0.20s ease-in-out;
+	-o-transition: background  0.30s ease-in-out, color 0.20s ease-in-out;
+	-ms-transition: background  0.30s ease-in-out, color 0.20s ease-in-out;
+	transition: background  0.30s ease-in-out, color 0.20s ease-in-out;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li a:hover,
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li:hover a{
+	background: #9F000C;
+	color: #FFF;
+	background-image: none;
+	-moz-transition: background 0.30s ease-in-out, color 0.20s ease-in-out;
+	-webkit-transition: background  0.30s ease-in-out, color 0.20s ease-in-out;
+	-o-transition: background  0.30s ease-in-out, color 0.20s ease-in-out;
+	-ms-transition: background  0.30s ease-in-out, color 0.20s ease-in-out;
+	transition: background  0.30s ease-in-out, color 0.20s ease-in-out;
+	}
+#header-wrapper #header-content #nav ul li ul li a:hover{
+	color: #333;
+	}
+/* Third-tier list */
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li ul{
+	display: none;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li:hover ul{
+	display: block;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li ul{
+	position: absolute;
+	width: 340px;
+	top: 0;
+	right: 8px;
+	height: 99%;
+	background: none;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li ul li,
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li ul li a,
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li:hover ul li,
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li:hover ul li a{
+	display: block;
+	transition: none;
+	background: none;
+	width: 97.5%;
+	height: 97%;
+	background: orange;
+	border-top-right-radius: 0.75em;
+	border-bottom-right-radius: 0.75em;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li ul li a{
+	height: 100%;
+	background: none;
+	}
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li ul li a,
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li ul li a:hover,
+#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li ul li:hover a{
+	background: none;
+	transition: none;
+	background-color: #efefef;
+	}
+/* Alternate styles for the right-most list */
+#header-wrapper #header-content #nav ul li#join div.tier-2-nav{
+	position: relative;
+	}
+#header-wrapper #header-content #nav ul li#join div.tier-2-nav ul{
+	float: right;
+	}
+#header-wrapper #header-content #nav ul li#join:hover div.tier-2-nav ul li a{
+	padding-left: 2.25em;
+	background-image: url(../images/nav-arrow-tier2_left.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	}
+#header-wrapper #header-content #nav ul li#join:hover div.tier-2-nav ul li ul{
+	left: 8px;
+	width: 310px;
+	}
+#header-wrapper #header-content #nav ul li#join:hover div.tier-2-nav ul li ul li,
+#header-wrapper #header-content #nav ul li#join:hover div.tier-2-nav ul li ul li a,
+#header-wrapper #header-content #nav ul li#join:hover div.tier-2-nav ul li:hover ul li,
+#header-wrapper #header-content #nav ul li#join:hover div.tier-2-nav ul li:hover ul li a{
+	background: none;
+	border-top-left-radius: 0.75em;
+	border-bottom-left-radius: 0.75em;
+	background: orange;
+	}

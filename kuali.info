@@ -1,0 +1,47 @@
+name = Kuali
+description = The standard layout and theme for the Kuali web site.
+core = 7.x
+
+#package = Core
+#version = VERSION
+
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/special.css
+stylesheets[all][] = css/tablet.css
+stylesheets[print][] = css/print.css
+scripts[] = js/jquery-1.4.2.min.js
+scripts[] = js/slideshow.js
+scripts[] = js/slideshow_start.js
+
+regions[menu_top] = Top Menu
+@regions[menu_main] = Main Navigation Menu
+regions[menu_main_software] = Main Menu - Software
+regions[menu_main_community] = Main Menu - Community
+regions[menu_main_join] = Main Menu - Join
+regions[home_banner] = Home page - Banner
+regions[home_buttons] = Home page - Buttons
+regions[home_button_left] = Home page - Button - Left
+regions[home_button_middle] = Home page - Button - Middle
+regions[home_button_right] = Home page - Button - Right
+regions[sidebar_left] = Left Sidebar
+regions[sidebar_right] = Right Rail (sidebar)
+regions[breadcrumb] = Breadcrumb
+regions[sectionpage_header] = Tier 2 Section Page Top
+regions[sectionpage_button_top] = Tier 2 Button - Top
+regions[sectionpage_button_bottom] = Tier 2 Button - Bottom
+regions[sectionpage_bottom] = Tier 2 Section Page Bottom
+regions[content] = Content
+regions[footer_left] = Footer - Left Block
+regions[footer_right_menu_home] = Footer - Site Map - Home
+regions[footer_right_menu_software] = Footer - Site Map - Software
+regions[footer_right_menu_community] = Footer - Site Map - Community
+regions[footer_right_menu_join] = Footer - Site Map - Join
+regions[footer_copyright] = Footer - Copyright Line
+#regions[footer_right] = Footer - Right Block
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon

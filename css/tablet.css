@@ -1,0 +1,36 @@
+
+@media only screen and (min-device-width: 300px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+
+/**
+ * STYLES THAT APPLY TO *ALL* TABLETS
+ */
+
+/*
+
+#header-wrapper{
+	position: static;
+	position: relative;
+	}
+#header-wrapper #header-inner-wrapper{
+	top: 0;
+	}
+#header-wrapper #header-content{
+	width: auto;
+	max-width: 980px;
+	}
+
+#content-outer-wrapper #content-inner-wrapper #breadcrumb-spacer{
+	padding-top: 0;
+	}
+#content-outer-wrapper #content-inner-wrapper #breadcrumb{
+	position: static;
+	}
+#content-outer-wrapper #content-inner-wrapper{
+	padding-top: 0;
+	}
+
+
+*/
+
+}
+	

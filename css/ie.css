@@ -1,0 +1,101 @@
+/*
+ *  GLOBAL STYLES
+ */
+hr{
+	clear: both;
+	height: 0;
+	}
+#content-outer-wrapper #section-banner-bg{
+	width: 100%;
+	height: 500px;
+	background: #e0e0e0;
+	position: absolute;
+	left: 0;
+	z-index: 1;
+	}
+#header-wrapper #header-content{
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+	height: 160px;
+	position: relative;
+	z-index:  1200;
+	
+	}
+a img{
+	border: none;
+	border: 0;
+	}
+.btn,
+#content-outer-wrapper #content-inner-wrapper #content-block #content .btn {
+	border-radius: none;
+	color: #ffffff;
+	border: none;
+	border: solid 1px #000000;
+	}
+/**
+ *  HOME PAGE
+ */
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-1 ul#slideshow li a,
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-1 ul#slideshow li a img{
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	outline: none;
+	border: 0;
+	}
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-1 #slideshow-wrap ul#slideshow li img,
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-1 #slideshow-wrap ul#slideshow li a img{
+	border: none;
+	width: 100%;
+	height: 100%;
+	}
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-1 ul#slideshow li a{
+	overflow: hidden;
+	}
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-2{
+	width: 100%;
+	height: 291px;
+	height: auto;
+	display: table;
+	}
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-2 .content-box-wrapper{
+	display: inline;
+	width: 32%;
+	text-align: center;
+	float: left;
+	margin: 0 0 0 20px;
+	}
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-2 .content-box-wrapper.left{
+	margin: 0;
+	}
+#content-outer-wrapper #content-inner-wrapper #home-section-head-tier-2 .content-box-wrapper.right{
+	float: right;
+	margin: 0;
+	}
+/**
+ *  STANDARD CONTENT
+ */
+#header-wrapper #header-content{
+	top: 0;
+	}
+html #header-wrapper #header-content #top-secondary-wrapper{
+	top: -20px;
+	}
+html #header-wrapper #header-content #about-wrapper{
+	top: -22px;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block ul.right-rail-buttons li a img{
+	border: none;
+	border: 0;
+	}
+/**
+ *  FOOTER
+ */
+#footer-outer-wrapper{
+	bottom: 40px;
+	}
+#footer-outer-wrapper #footer-inner-wrapper #footer-content #footer-contact #social-network-connect hr{
+	display: none;
+	}

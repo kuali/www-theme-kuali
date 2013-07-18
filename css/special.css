@@ -1,0 +1,131 @@
+#content-outer-wrapper #content-inner-wrapper .btn2,
+#content-outer-wrapper #content-inner-wrapper #content-block #content a.btn2{
+	margin: 0;
+	padding: 3px 10px 2px 17px;
+	width: auto;
+	background-color: #7DB843;
+	font-family: "Gotham", Arial, sans-serif;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	border: solid 1px #5a882e;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: 0 0 4px #000;
+	}
+#content-outer-wrapper #content-inner-wrapper .btn2:after,
+#content-outer-wrapper #content-inner-wrapper #content-block #content a.btn2:after{
+	content: "\2192";
+	padding: 0 5px 0 10px;
+	font-size: 1.3em;
+	}
+#content-outer-wrapper #content-inner-wrapper .btn2:hover,
+#content-outer-wrapper #content-inner-wrapper #content-block #content a.btn2:hover{
+	background-color: #74AC3E;
+	color: #FFF;
+	text-decoration: none;
+	}
+#content-outer-wrapper #content-inner-wrapper .btn2:active,
+#content-outer-wrapper #content-inner-wrapper #content-block #content a.btn2:active{
+	background-color: #5a872f;
+	}
+table#event_schedule{
+	table-layout: fixed;
+	}
+/**
+ * TRAINING SCHEDULE TABLE STYLES
+ */
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer{
+	border-collapse: collapse;
+	border: none;
+	border: 1px solid #999999;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer th{
+	background-color: #d4d5de;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer tr.view-row td{
+	border-collapse: separate;
+	border: none;
+	border: 0px;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer tr.view-row td.no-border-bottom{
+	border-bottom: none;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer table.training-inner,
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer table.training-inner tr td,
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer table.training-inner tr th{
+	border-collapse: separate;
+	border: none;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer table.training-inner tr th{
+	background-color: #e9e9e9;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer table.training-inner tr th,
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer table.training-inner tr td{
+	border-left: 1px solid #999999;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.training-outer table.training-inner tr td{
+	border-top: 1px solid #999999;
+	background-color: #F4F4F4;
+	}
+/**
+ * PAGE-TOP SMALL SECTION NAVIGATION
+ */
+#content-outer-wrapper #content-inner-wrapper #content-block #content .menu-block-13 ul{
+	list-style: none;
+	list-style-type: none;
+	margin: 15px 0 0 0;
+	padding: 0;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content .menu-block-13 ul:after{
+	content: "";
+	display: table;
+	clear: both;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content .menu-block-13 ul li{
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content .menu-block-13 ul li a{
+	display: block;
+	border: solid 1px #cecece;
+	border-right: none;
+	padding: 0.35em 0.95em 0.35em 0.95em;
+	font-size: 1.3em;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(243,243,243,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 100%);
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content .menu-block-13 ul li a:hover{
+	background: rgb(255,255,255);
+	text-decoration: none;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content .menu-block-13 ul li a.active-trail{
+	color: rgb(255,255,255);
+	background: rgb(102,102,102);
+	background: -moz-linear-gradient(top,  rgba(102,102,102,1) 0%, rgba(59,59,59,1) 3%, rgba(78,78,78,1) 11%, rgba(87,87,87,1) 17%, rgba(96,96,96,1) 28%, rgba(116,116,116,1) 78%, rgba(114,114,114,1) 83%, rgba(108,108,108,1) 89%, rgba(101,101,101,1) 92%, rgba(102,102,102,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,102,102,1)), color-stop(3%,rgba(59,59,59,1)), color-stop(11%,rgba(78,78,78,1)), color-stop(17%,rgba(87,87,87,1)), color-stop(28%,rgba(96,96,96,1)), color-stop(78%,rgba(116,116,116,1)), color-stop(83%,rgba(114,114,114,1)), color-stop(89%,rgba(108,108,108,1)), color-stop(92%,rgba(101,101,101,1)), color-stop(100%,rgba(102,102,102,1)));
+	background: -webkit-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(59,59,59,1) 3%,rgba(78,78,78,1) 11%,rgba(87,87,87,1) 17%,rgba(96,96,96,1) 28%,rgba(116,116,116,1) 78%,rgba(114,114,114,1) 83%,rgba(108,108,108,1) 89%,rgba(101,101,101,1) 92%,rgba(102,102,102,1) 100%);
+	background: -o-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(59,59,59,1) 3%,rgba(78,78,78,1) 11%,rgba(87,87,87,1) 17%,rgba(96,96,96,1) 28%,rgba(116,116,116,1) 78%,rgba(114,114,114,1) 83%,rgba(108,108,108,1) 89%,rgba(101,101,101,1) 92%,rgba(102,102,102,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(59,59,59,1) 3%,rgba(78,78,78,1) 11%,rgba(87,87,87,1) 17%,rgba(96,96,96,1) 28%,rgba(116,116,116,1) 78%,rgba(114,114,114,1) 83%,rgba(108,108,108,1) 89%,rgba(101,101,101,1) 92%,rgba(102,102,102,1) 100%);
+	background: linear-gradient(to bottom,  rgba(102,102,102,1) 0%,rgba(59,59,59,1) 3%,rgba(78,78,78,1) 11%,rgba(87,87,87,1) 17%,rgba(96,96,96,1) 28%,rgba(116,116,116,1) 78%,rgba(114,114,114,1) 83%,rgba(108,108,108,1) 89%,rgba(101,101,101,1) 92%,rgba(102,102,102,1) 100%);
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content .menu-block-13 ul li.first a{
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content .menu-block-13 ul li.last a{
+	border-right: solid 1px #cecece;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	}
