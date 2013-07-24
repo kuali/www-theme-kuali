@@ -1186,7 +1186,11 @@ a:active, a:focus{
 #header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul.software-aux{
 	width: 100%;
 	}
-@media DISABLED {
+
+		/* REMOVE BG IMG */
+		#header-wrapper #header-content #nav ul li#software div.tier-2-nav{
+			background-image: none;
+			}
 		#header-wrapper #header-content #nav ul li#software div.tier-2-nav a.nav-area-link{
 			display: none;
 			}
@@ -1247,7 +1251,7 @@ a:active, a:focus{
 		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover div.software-block-link-block.title{
 			opacity: 1;
 			}
-		/*
+		
 		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-org,
 		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-title{
 			opacity: 0;
@@ -1256,9 +1260,9 @@ a:active, a:focus{
 		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-abbreviation{
 			opacity: 1;
 			}
-		*/
+		
 		/*** HOVER SETTINGS ***/
-		/*
+		
 		
 		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-abbreviation{
 			opacity: 0;
@@ -1270,7 +1274,7 @@ a:active, a:focus{
 			opacity: 1;
 			display: inline;
 			}
-		*/
+		
 		/* PRODUCT-SPECIFIC HOVER PADDING SETTINGS */
 		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.rice a:hover,
 		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.coeus a:hover,
@@ -1286,7 +1290,7 @@ a:active, a:focus{
 			padding: 0.35em 0.5em 2em 0.65em;
 			}
 		/* *** */
-}
+
 /**
  * MAIN CONTENT BLOCKS
  */
