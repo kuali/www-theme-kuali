@@ -172,18 +172,21 @@ em h6{
 	padding: 0;
 	margin: 0;
 	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span{
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span{
 	margin: 0;
 	padding: 0;
 	float: none;
 	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-abbreviation{
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-abbreviation,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-abbreviation{
 	font-family: "Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
 	font-size: 1.8em;
 	letter-spacing: 0.08em;
 	font-weight: 100;
 	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-org{
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-org,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span.product-org{
 	font-family: "Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
 	font-size: 1.18em;
 	font-weight: 100;
@@ -198,9 +201,18 @@ em h6{
 	max-width: 100%;
 	overflow: hidden;
 	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-title span.small{
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-title span.small,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-title span.small{
 	font-size: 0.7em;
 	}
+/* OVERRIDE AND STANDARDIZE TYPE SIZES FOR THE ALT MENU */
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-abbreviation{
+	font-size: 1.8em;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span.product-title{
+	font-size: 1.4em;
+	}
+
 /* PRODUCT-SPECIFIC SIZES */
 #header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.rice a span.product-title,
 #header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.coeus a span.product-title,

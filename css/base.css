@@ -1186,111 +1186,118 @@ a:active, a:focus{
 #header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul.software-aux{
 	width: 100%;
 	}
-
-		/* REMOVE BG IMG */
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav{
-			background-image: none;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav a.nav-area-link{
-			display: none;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul,
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks{
-			width: 100%;
-			margin: 0;
-			padding: 0;
-			position: relative;
-			float: left;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li{
-			margin: 0;
-			padding: 0;
-			display: inline-block;
-			height: auto;
-			width: 25%;
-			max-height: 110px;
-			float: left;
-			overflow: hidden;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a{
-			margin: 0;
-			padding: 0;
-			padding: 1.5em 0 2em 1em;
-			-moz-border-radius: 0;
-			-webkit-border-radius: 0;
-			-o-border-radius: 0;
-			border-radius: 0;
-			width: 25%;
-			width: 140px;
-			width: auto;
-			height: 110px;
-			max-height: 110px;
-			display: block;
-			line-height: normal;
-			overflow: hidden;
-			position: relative;
-			/*padding: 0 !important;*/
-			/*
-			border-collapse: collapse;
-			border: solid 1px #dadada;
-			*/
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a div.software-block-link-block{
-			display: block;
-			position: absolute;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a div.software-block-link-block.abbrev{
-			opacity: 1;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a div.software-block-link-block.title{
-			opacity: 0;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover div.software-block-link-block.abbrev{
-			opacity: 0;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover div.software-block-link-block.title{
-			opacity: 1;
-			}
-		
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-org,
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-title{
-			opacity: 0;
-			display: none;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-abbreviation{
-			opacity: 1;
-			}
-		
-		/*** HOVER SETTINGS ***/
-		
-		
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-abbreviation{
-			opacity: 0;
-			text-indent: -9999px;
-			display: none;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-org,
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-title{
-			opacity: 1;
-			display: inline;
-			}
-		
-		/* PRODUCT-SPECIFIC HOVER PADDING SETTINGS */
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.rice a:hover,
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.coeus a:hover,
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ready a:hover,
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ks a:hover{
-			padding: 1.1em 0 0 1em;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.kfs a:hover,
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ole a:hover{
-			padding: 0.75em 0 2em 0.65em;
-			}
-		#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.kpme a:hover{
-			padding: 0.35em 0.5em 2em 0.65em;
-			}
-		/* *** */
-
+/* REMOVE BG IMG */
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav{
+	background-image: none;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav a.nav-area-link{
+	display: none;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	height: auto;
+	width: 25%;
+	max-height: 110px;
+	float: left;
+	overflow: hidden;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a{
+	margin: 0;
+	padding: 0;
+	padding: 1.5em 0 2em 1em;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	width: 25%;
+	width: 140px;
+	width: auto;
+	height: 110px;
+	max-height: 110px;
+	display: block;
+	line-height: normal;
+	overflow: hidden;
+	position: relative;
+	/*padding: 0 !important;*/
+	/*
+	border-collapse: collapse;
+	border: solid 1px #dadada;
+	*/
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a div.software-block-link-block{
+	display: block;
+	position: absolute;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a{
+	height: 50px;
+	padding: 1.4em 0 0 1em;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a div.software-block-link-block.abbrev,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a div.software-block-link-block.abbrev{
+	opacity: 1;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a div.software-block-link-block.title,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a div.software-block-link-block.title{
+	opacity: 0;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover div.software-block-link-block.abbrev,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover div.software-block-link-block.abbrev{
+	opacity: 0;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover div.software-block-link-block.title,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover div.software-block-link-block.title{
+	opacity: 1;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-org,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-title,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-org,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-title{
+	opacity: 0;
+	display: none;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-abbreviation,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-abbreviation{
+	opacity: 1;
+	}
+/*** HOVER SETTINGS ***/
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-abbreviation,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span.product-abbreviation{
+	opacity: 0;
+	text-indent: -9999px;
+	display: none;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-org,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-title,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span.product-org,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span.product-title{
+	opacity: 1;
+	display: inline;
+	}		
+/* PRODUCT-SPECIFIC HOVER PADDING SETTINGS */
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.rice a:hover,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.coeus a:hover,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ready a:hover,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ks a:hover{
+	padding: 1.1em 0 0 1em;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.kfs a:hover,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ole a:hover{
+	padding: 0.75em 0 2em 0.65em;
+	}
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.kpme a:hover{
+	padding: 0.35em 0.5em 2em 0.65em;
+	}
+/* *** */
 /**
  * MAIN CONTENT BLOCKS
  */
