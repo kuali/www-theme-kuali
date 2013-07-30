@@ -48,16 +48,16 @@
 #header-wrapper #header-content #about-wrapper #about-inner-wrapper a{
 	cursor: pointer;
 	}
-#header-wrapper #header-content #about-wrapper #kuali-initiatives{
+#header-wrapper #header-content #about-wrapper #kuali-subtheme{
 	display: block;
 	}
-#header-wrapper #header-content #about-wrapper #kuali-initiatives span.kuali,
-#header-wrapper #header-content #about-wrapper #kuali-initiatives span.about{
+#header-wrapper #header-content #about-wrapper #kuali-subtheme span.kuali,
+#header-wrapper #header-content #about-wrapper #kuali-subtheme span.about{
 	position: relative;
 	left: -5px;
 	top: 3px;
 	}
-#header-wrapper #header-content #about-wrapper #kuali-initiatives span.about{
+#header-wrapper #header-content #about-wrapper #kuali-subtheme span.about{
 	left: -4px;
 	}
 #header-wrapper #header-content #about-wrapper #kuali-main{
