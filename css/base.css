@@ -1393,6 +1393,7 @@ a:active, a:focus{
 	border-top-left-radius: 5px;
 	-moz-border-radius-bottomleft: 5px;
 	border-bottom-left-radius: 5px;
+	background: url(../images/left-subnav-arrow.svg) right center no-repeat, rgba(143, 29, 5, 1.0);
 	background: url(../images/left-subnav-arrow.svg) right center no-repeat, -moz-linear-gradient(top,  rgba(232,232,232,1) 0%, rgba(152,35,0,1) 3%, rgba(126,17,12,1) 62%, rgba(125,17,12,1) 100%); /* FF3.6+ */
 	background: url(../images/left-subnav-arrow.svg) right center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,232,232,1)), color-stop(3%,rgba(152,35,0,1)), color-stop(62%,rgba(126,17,12,1)), color-stop(100%,rgba(125,17,12,1))); /* Chrome,Safari4+ */
 	background: url(../images/left-subnav-arrow.svg) right center no-repeat, -webkit-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(152,35,0,1) 3%,rgba(126,17,12,1) 62%,rgba(125,17,12,1) 100%); /* Chrome10+,Safari5.1+ */
