@@ -1287,6 +1287,7 @@ a:active, a:focus{
 #header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.rice a:hover,
 #header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.coeus a:hover,
 #header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ready a:hover,
+#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.mobility a:hover,
 #header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ks a:hover{
 	padding: 1.1em 0 0 1em;
 	}
@@ -1295,7 +1296,7 @@ a:active, a:focus{
 	padding: 0.75em 0 2em 0.65em;
 	}
 #header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.kpme a:hover{
-	padding: 0.35em 0.5em 2em 0.65em;
+	padding: 0.8em 0.5em 2em 0.65em;
 	}
 /* *** */
 /**
