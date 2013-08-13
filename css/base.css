@@ -1954,6 +1954,9 @@ a:active, a:focus{
 	padding: 1.6em 0 1.6em 0;
 	vertical-align: top;
 	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content table.table tr td.grey{
+	background-color: rgba(219, 218, 227, 1.0);
+	}
 /**
  * FOOTER
  */

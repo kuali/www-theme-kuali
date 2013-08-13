@@ -13,6 +13,21 @@
 	top: 0;
 	margin-top: 0;
 	}
+
+#header-wrapper #header-content #about-wrapper #about-inner-wrapper a div#about-logo,
+#header-wrapper #header-content #about-wrapper #about-inner-wrapper a div#about-logo-hover{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	background-image: url(../images/kuali-wok.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	}
+#header-wrapper #header-content #about-wrapper #about-inner-wrapper a div#about-logo-hover{
+	background-position: bottom left;
+	}
 #header-wrapper #header-content #top-secondary-wrapper #top-secondary-nav{
 	background-color: #6C0005;
 	}
