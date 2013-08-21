@@ -1,4 +1,4 @@
-<div id="header-wrapper">
+<header role="banner" id="header-wrapper">
 <div id="header-inner-wrapper">
 </div>
  <div id="header-content">
@@ -61,7 +61,7 @@ print '<a href="/">';
 </div>
 </div>
 </div>
- 	<div id="nav">
+ 	<nav id="nav">
  		<ul>
  			<li id="software"><a href="/software" class="tab-main">Software</a>
  			<div id="software-list" class="tier-2-nav">
@@ -91,6 +91,6 @@ print '<a href="/">';
  			</div>
  			</li>
  		</ul>
- 	</div>
+ 	</nav>
  </div>
-</div>
+</header>

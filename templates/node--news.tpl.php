@@ -101,8 +101,10 @@
       hide($content['field_description']);
       hide($content['field_right_rail_content']);
       print '<h2 class="news">'.$title.'</h2>';
-      print '<div class="news-create-date"><p>';
+      print '<div class="news-create-date"><p>';    
+      print '<time datetime="'.render (format_date($variables['created'], 'custom', 'Y-m-d')).'T'. render (format_date($variables['created'], 'custom', 'G:i')).'" pubdate>';
       print render (format_date($variables['created'], 'custom', 'l F j, Y'));
+      print '</time>';
       print '</p></div>';
       print render($content);
       //print render($content['field_right_rail_content']);

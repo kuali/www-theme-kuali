@@ -99,15 +99,15 @@
             <?php endif; ?>
 
             <?php if ($page['sidebar_left']): ?>
-            <div id="left-subnav">
+            <nav id="left-subnav">
             <?php print render($page['sidebar_left']); ?>
 			<div id="left-subnav-lower"></div>
-		</div>
+            </nav>
         <?php endif; ?>
             <div id="content-block" class="right-rail-present-outer<?php if ($page['sidebar_left']) { print ' left-subnav '; } ?>">
-                <div id="content" class="right-rail-present-inner">
+                <section id="content" class="right-rail-present-inner">
                 <?php print render($page['content']); ?>
-            </div>
+                </section>
             <div class="clear"></div>
         </div>
         <div class="clear"></div>

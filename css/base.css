@@ -1210,6 +1210,13 @@ a:active, a:focus{
 	max-height: 110px;
 	float: left;
 	overflow: hidden;
+	
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	
 	}
 #header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a{
 	margin: 0;

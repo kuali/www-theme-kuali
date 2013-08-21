@@ -1,4 +1,4 @@
-<div id="footer-outer-wrapper">
+<footer id="footer-outer-wrapper">
 <div id="footer-spacer"></div>
 	<div id="footer-inner-wrapper">
 		<div id="footer-content">
@@ -42,4 +42,4 @@
 			<?php endif; ?>
 			</div>
 		</div>
-</div>
+</footer>
