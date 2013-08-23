@@ -124,11 +124,13 @@ if (!empty($node_content['field_uses_subtheme']['#items']['0']['value']) && $nod
             </nav>
         <?php endif; ?>
             <div id="content-block" class="<?php if ($page['sidebar_left']) { print 'left-subnav '; } if (!empty($node_content['field_show_right_rail']['#items']['0']) && $node_content['field_show_right_rail']['#items']['0']['value'] == '1'){ print 'right-rail-present-outer'; } ?>">
-                <section id="content"<?php if (!empty($node_content['field_show_right_rail']['#items']['0']) && $node_content['field_show_right_rail']['#items']['0']['value'] == '1'){ print ' class="right-rail-present-inner"'; } ?>>
+                <section id="main-content-section">
+                <div id="content"<?php if (!empty($node_content['field_show_right_rail']['#items']['0']) && $node_content['field_show_right_rail']['#items']['0']['value'] == '1'){ print ' class="right-rail-present-inner"'; } ?>>
 	            <?php
 	            	if ($software_page == TRUE){ print '<h2>'.$title.'</h2>'; }
 	            	print render($page['content']);
 	            ?>
+                </div>
                 </section>
             <div class="clear"></div>
         </div>

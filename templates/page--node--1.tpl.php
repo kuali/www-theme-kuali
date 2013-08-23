@@ -100,7 +100,8 @@
 		
 		<div id="content-block" class="full-page">
 			<a name="sub-menu" id="sub-menu-spacer"></a>
-			<section id="content" class="full-page">
+			<section id="main-content-section">
+			<div id="content" class="full-page">
 				<div id="feature">
 					<a href="/kd/2013" title="Kuali Days"><img src="/sites/default/files/home/feature-ribbon_KD2013-links.jpg" /></a>
 					<ul id="quick-links">
@@ -134,6 +135,7 @@
 	        </div>
 	        <?php endif; ?>
             <?php   print render($page['content']);   ?>        
+			</div>
 			</section>
             <div class="clear"></div>
         </div>

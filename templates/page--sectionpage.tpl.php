@@ -114,7 +114,8 @@
 		<div id="title-block-section-header-shadow"></div>
 		<div id="content-inner-wrapper-bottom"></div>
             <div id="content-block" class="full-page">
-                <section id="content" class="full-page">
+				<section id="main-content-section">
+                <div id="content" class="full-page">
 	            
 	            <div id="tabs_wrapper">
 	            	<?php print render($tabs); ?>
@@ -141,6 +142,7 @@
 	            ?>
 	            <div class="clear"></div>
 			</div>
+				</div>
                 </section>
             </div>
             <div class="clear"></div>
