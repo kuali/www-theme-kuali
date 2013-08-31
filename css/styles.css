@@ -636,3 +636,29 @@ ul.pager li.pager-current:hover{
 	border-top: solid 1px rgba(200, 203, 208, 1.0);
 	border-bottom: solid 1px rgba(200, 203, 208, 1.0);
 	}
+/**
+ * TABLE OF CONTENTS
+ */
+#content-outer-wrapper #content-inner-wrapper #content-block #content ol.toc,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.toc {
+	margin: 0 0 20px 0;
+	padding: 0 0 5px 0;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content ol.toc li,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.toc li{
+	list-style: none;
+	list-style-type: none;
+	margin: 3px 0 3px 20px;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content ol.toc li:before,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.toc li:before{
+	content: "\2193 \0020";
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-type: none;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content ol.toc:before,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.toc:before{
+	content: "On this page: \0020";
+	}
