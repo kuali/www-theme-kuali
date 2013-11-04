@@ -591,7 +591,8 @@ header #header-content #search input[type="text"].textfield:focus{
 	box-shadow: none;
 	box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
 	}
-header #header-content #search #edit-submit{
+header #header-content #search #edit-submit,
+header #header-content #search input[type="submit"]{
 	display: none;
 	}
 /* *** */
