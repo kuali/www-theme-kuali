@@ -554,19 +554,18 @@ header #search ul#search-options li input[type="radio"]{
 	margin: 0;
 	padding: 0;
 	}
-header #header-content #search #search-field{
+header #header-content #search #search-field,
+header #header-content #search input[type="text"].textfield
+{
 	border: solid 1px rgba(202, 202, 202, 1.0);
 	border: none;
 	font-size: 0.875em;
 	letter-spacing: 0.06em;	
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 200;
-	
-	width: 235px;
-	
+	min-width: 0;
 	width: 205px;
-	
-	
+	max-width: 205px !important;
 	color: rgba(0,0,0,0.25);
 	padding: 4px 0 4px 32px;
 	transition: all 0.2s ease;
@@ -583,13 +582,17 @@ header #header-content #search #search-field{
 	background-color: linear-gradient(to bottom,  #efefef 0%,#eaeaea 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#eaeaea',GradientType=0 );
 	}
-header #header-content #search #search-field:focus{
+header #header-content #search input[type="text"].textfield:focus{
 	outline: none;
 	font-weight: 200;
 	color: rgba(0,0,0,0.85);
 	background-color: #f4f4f4;
 	transition: all 0.2s ease;
+	box-shadow: none;
 	box-shadow: inset 0 0 1px 1px rgba(0,0,0,0.1);
+	}
+header #header-content #search #edit-submit{
+	display: none;
 	}
 /* *** */
 /**

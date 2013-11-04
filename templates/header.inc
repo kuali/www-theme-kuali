@@ -18,7 +18,9 @@
 					<label for="search-scope-kuali">Kuali.org</label>
 				</li>
 			</ul>
-			<input type="text" placeholder="Search Kuali" id="search-field" />
+			<?php if ($page['menu_top']): ?>
+<?php print render($page['menu_top']); ?>
+<?php endif; ?>
 		</div>
 	</div>
 </header>
