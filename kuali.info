@@ -16,7 +16,7 @@ scripts[] = js/slideshow.js
 scripts[] = js/slideshow_start.js
 
 regions[menu_top] = Top Menu
-@regions[menu_main] = Main Navigation Menu
+regions[menu_main] = Main Navigation Menu
 regions[menu_main_software] = Main Menu - Software
 regions[menu_main_community] = Main Menu - Community
 regions[menu_main_join] = Main Menu - Join

@@ -61,6 +61,22 @@
 	font-style: normal;
     }
 /**
+ * BENTON SANS FAMILY
+ */
+@font-face {
+	font-family: 'BentonSansRegular';
+	src: url('../fonts/BentonSans/benton-sans-regular/.eot');
+	src: url('../fonts/BentonSans/benton-sans-regular/benton-sans-regular.eot') format('embedded-opentype'),
+		 url('../fonts/BentonSans/benton-sans-regular/benton-sans-regular.woff') format('woff'),
+		 url('../fonts/BentonSans/benton-sans-regular/benton-sans-regular.ttf') format('truetype'),
+		 url('../fonts/BentonSans/benton-sans-regular/benton-sans-regular#BentonSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+    }
+
+
+
+/**
  * GLOBAL STYLES AND RE-WRITES
  */
 .nomargin{
@@ -110,127 +126,7 @@ h6 em,
 em h6{
 	font-style: normal;
 	}
-#header-wrapper #header-content #nav ul li a{
-	font-family: "SentinelMedium","SentinelSemiBold",Verdana, Times New Roman, serif;
-	color: #FFF;
-	font-size: 1.42em;
-	text-shadow: 0 0 4px #000;
-	text-shadow: 0 0 4px rgba(0, 0, 0, 1);
-	font-weight: 400;
-	letter-spacing: normal;
-	letter-spacing: 0.065em;
-	}
-#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li,
-#header-wrapper #header-content #nav ul li:hover div.tier-2-nav ul li a{
-	font-family: "Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
-	font-size: 1.01em;
-	letter-spacing: 0.07em;
-	font-weight: 300;
-	text-shadow: none;
-	color: #888;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav h5.tab-subtitle,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav h5.tab-subtitle a{
-	margin: 0;
-	padding: 0;
-	display: block;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	-o-border-radius: 0;
-	border-radius: 0;
-	background: none;
-	background-image: none;
-	border: none;
-	font-family: "Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
-	font-size: 1em;
-	color: rgba(150, 155, 158, 1.0);
-	text-transform: uppercase;
-	font-weight: 200;
-	letter-spacing: 0.2em;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav h5.tab-subtitle{
-	/* border: solid 1px #222; */
-	width: auto;
-	background: rgba(211, 211, 211, 1.0);
-	padding: 0.45em 0 0.25em 0.35em;
-	margin: 0.5em 0 0.5em 0;
-	border-radius: 5px;
-	font-size: 1.25em;
-	text-shadow: rgb(255, 255, 255) 0px 0px 4px;
-	}
-/***
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav h5.tab-subtitle.first{
-	border-radius: 0;
-	-moz-border-radius-topleft: 5px;
-	border-top-left-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;	
-	margin: 0;
-	}
-***/
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav h5.tab-subtitle a{
-	padding: 0;
-	margin: 0;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span{
-	margin: 0;
-	padding: 0;
-	float: none;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-abbreviation,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-abbreviation{
-	font-family: "Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
-	font-size: 1.8em;
-	letter-spacing: 0.08em;
-	font-weight: 100;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-org,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span.product-org{
-	font-family: "Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
-	font-size: 1.18em;
-	font-weight: 100;
-	letter-spacing: 0.1em;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a:hover span.product-title{
-	display: block;
-	font-family: "Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
-	font-size: 1.4em;
-	font-weight: 200;
-	letter-spacing: 0.08em;
-	max-width: 100%;
-	overflow: hidden;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li a span.product-title span.small,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-title span.small{
-	font-size: 0.7em;
-	}
-/* OVERRIDE AND STANDARDIZE TYPE SIZES FOR THE ALT MENU */
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a span.product-abbreviation{
-	font-size: 1.8em;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks-alt li a:hover span.product-title{
-	font-size: 1.4em;
-	}
 
-/* PRODUCT-SPECIFIC SIZES */
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.rice a span.product-title,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.coeus a span.product-title,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.mobility a span.product-title,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ready a span.product-title,
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ks a span.product-title{
-	font-size: 1.72em;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.ole a span.product-title{
-	font-size: 1.2em;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.kpme a span.product-org{
-	font-size: .96em;
-	line-height: 0.05em;
-	}
-#header-wrapper #header-content #nav ul li#software div.tier-2-nav ul.software-blocks li.kpme a span.product-title{
-	font-size: 0.98em;
-	}
 #content-outer-wrapper #content-inner-wrapper #title-block h1{
 	background-color: #e2e2e2;
 	margin: 18px 0 0.5em 0;

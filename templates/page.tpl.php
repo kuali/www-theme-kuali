@@ -94,7 +94,6 @@ if (!empty($node_content['field_uses_subtheme']['#items']['0']['value']) && $nod
 }
 ?>
 <div id="content-outer-wrapper">
-    <div id="shadow-bottom">
         <div id="content-inner-wrapper">
 	        <?php if ($breadcrumb): ?>
             <div id="breadcrumb">
@@ -103,7 +102,6 @@ if (!empty($node_content['field_uses_subtheme']['#items']['0']['value']) && $nod
 	            	<?php print render($tabs); ?>
 	            </div>
             </div>
-            <div id="breadcrumb-spacer"></div>
             <?php endif; ?>              
             <?php if ($title): ?>
             <div id="title-block">
@@ -135,7 +133,6 @@ if (!empty($node_content['field_uses_subtheme']['#items']['0']['value']) && $nod
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
-    </div>
 </div>
 <?php
 /**

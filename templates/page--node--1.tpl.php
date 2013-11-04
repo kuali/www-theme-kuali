@@ -85,61 +85,74 @@
  */
 ?>
 <?php require_once('header.inc'); ?>
-<div id="content-outer-wrapper">
-    <div id="section-banner-bg"></div>
-    <div id="shadow-bottom">
-        <div id="content-inner-wrapper" class="nobreadcrumb">
-            <div id="breadcrumb-spacer"></div>          
-            <div id="title-block" class="main-section-page">
-			<div id="home-section-head-tier-1">
-			<?php print render ($page['home_banner']); ?>
+<section id="banner-home">
+	<section class="content">
+		<div class="heading">
+			<h4>Keep your money in your mission</h4>
 		</div>
+	</section>
+</section>
+
+<div id="home-content-outer-wrapper">
+<div id="home-ribbon">
+	<div class="content">
+		<ul id="ribbon-feature" class="clearfix">
+			<li class="event">
+				<div class="icon"></div>
+				<h3>Kuali Days</h3>
+				<p>November 18&ndash;21<br>San Diego, CA</p>
+				<a href="#" class="button">Register</a>
+			</li>
+			<li class="test-drive">
+				<div class="icon"></div>
+				<h3>Test Drives</h3>
+				<p>Try out Kuali ERP software now!</p>
+				<a href="#" class="button">Try it!</a>
+			</li>
+		</ul>
+		<div id="home-feed-box">
+			<h3>Kuali News</h3>
+				<ul id="kuali-news-feed">
+					<li>
+						<span class="date">September 26, 2013</span>
+						<a href="#">KCA rSmart Offers Complimentary Webinar on a Simpler, More Effective Solution for Grants Administration</a>
+						<span class="teaser">If you are currently managing your grants manually, with paper-based processes, disconnected point solutions, or homegrown databases, there’s a better way and it’s now affordable. </span>
+					</li>
+					<li>
+						<span class="date">August 19, 2013</span>
+						<a href="#">The Kuali Rice Team is Proud to Announce the Release of Kuali Rice 2.3</a>
+						<span class="teaser">This minor version release of Rice includes many improvements to the Kuali Rapid Application Development (KRAD) Framework and several performance enhancements.</span>
+					</li>
+				</ul>
+				<div id="feed-switch">
+					<ul>
+						<li class="selected"><a href="#" id="news">Kuali News</a></li>
+						<li><a href="#" id="news">@Kuali</a></li>
+					</ul>
+				</div>
 		</div>
-		<div id="title-block-section-header-shadow"></div>
-		<div id="content-inner-wrapper-bottom"></div>
 		
-		<div id="content-block" class="full-page">
-			<a name="sub-menu" id="sub-menu-spacer"></a>
-			<section id="main-content-section">
-			<div id="content" class="full-page">
-				<div id="feature">
-					<a href="/kd/2013" title="Kuali Days"><img src="/sites/default/files/home/feature-ribbon_KD2013-links.jpg" /></a>
-					<ul id="quick-links">
-						<li><a href="/kd/2013/register">Register</a></li>
-						<li><a href="https://www.concentra-cms.com/cfp/agenda/program.action?uid=335f2b42-f057-4f9b-abd5-6b7931b57ab5" target="_blank">Program</a></li>
-						<li><a href="/kd/2013/presenters">Presenters</a></li>
-					</ul>	
-				</div>
-			<div class="spacer two"></div>			
-			<div id="home-section-head-tier-2">
-				<div class="content-box-wrapper left">
-						<?php if($page['home_button_left']):  ?>
-						<?php print render($page['home_button_left']);  ?>
-						<?php endif; ?>
-				</div>
-				<div class="content-box-wrapper">
-						<?php if($page['home_button_middle']):  ?>
-						<?php print render($page['home_button_middle']);  ?>
-						<?php endif; ?>
-				</div>
-				<div class="content-box-wrapper right">
-						<?php if($page['home_button_right']):  ?>
-						<?php print render($page['home_button_right']);  ?>
-						<?php endif; ?>
-				</div>
+		
+	</div>
+	
+	</div>
+<div id="home-content-inner-wrapper">
+	<section id="home-content" class="content">
+	<ul id="home-content-boxes" class="alt">
+		<li>
+			<a href="#"><img src="/sites/all/themes/kuali/images/home-content-wheeler.jpg" /></a>
+			<div class="content-box-content">
+				<h3>Learn how</h3>
+				<p>Kuali’s comprehensive suite of enterprise level software is helping colleges and universities around the world keep their money in their mission.</p>
+				<p><a href="#" class="button">Read more</a></p>
 			</div>
-            <?php if($tabs): ?>
-            <div class="spacer"></div>
-            <div id="tabs_wrapper">
-	        	<?php print render($tabs); ?>
-	        </div>
-	        <?php endif; ?>
-            <?php   print render($page['content']);   ?>        
-			</div>
-			</section>
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </div>
+		</li>
+	</ul>
+	</section>
+</div>
+
+
+
+
 </div>
 <?php require_once('footer.inc'); ?>

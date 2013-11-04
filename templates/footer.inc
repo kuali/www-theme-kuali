@@ -1,5 +1,4 @@
 <footer id="footer-outer-wrapper">
-<div id="footer-spacer"></div>
 	<div id="footer-inner-wrapper">
 		<div id="footer-content">
 			<div id="footer-menu">
