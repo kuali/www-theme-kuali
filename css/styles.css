@@ -145,6 +145,20 @@ em h6{
 	font-weight: 500;
 	font-size: 3.52em;
 	padding: 10px 0 7px 15px;
+	
+	
+	
+	font-family: 'SentinelSemiBold','SentinelBlack','ChunkFive','Georgia',serif;
+	background: none;
+	border: none;
+	box-shadow: none;
+	margin: 20px 0 0 0;
+	padding: 0 0 12px 0;
+	border-bottom: solid 1px #ccc;
+	
+	
+	
+	
 	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content{
 	font-size: 0.875em;
@@ -180,6 +194,10 @@ em h6{
 #content-outer-wrapper #content-inner-wrapper #content-block #content ol{
 	font-size: 1em;
 	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ol{
+	margin-left: 2.5em;
+	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content ul li,
 #content-outer-wrapper #content-inner-wrapper #content-block #content ol li{
 	line-height: 2.2em;
@@ -196,7 +214,17 @@ em h6{
 	text-transform: uppercase;
 	line-height: normal;
 	padding-bottom: 0.12em;
-	border-bottom: solid 2px rgba(200, 203, 208, 1.0);
+	
+	
+	
+	
+	
+	font-family: 'SentinelSemiBold',Verdana, Times New Roman, serif;
+	color: rgba(145,150,157,1);
+	font-size: 2.2em;
+	font-size: 2.3em;
+	font-weight: 300;
+	
 	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content h2.news{
 	margin: 0.55em 0 0.35em 0;
@@ -210,17 +238,34 @@ em h6{
 	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content h3{
 	margin: 1.25em 0 0.25em 0;
-	color: rgba(155, 100, 52, 1);
-	color: #566F81;
+	-webkit-font-smoothing: antialiased;
 	line-height: normal;
 	font-family: 'SentinelSemiBold',Verdana, Times New Roman, serif;
-	font-size: 2.4em;
-	-webkit-font-smoothing: antialiased;
-	font-weight: 500;
+	color: rgba(70,70,70,1);
+	font-size: 2.15em;
+	font-weight: 300;
 	}
-#content-outer-wrapper #content-inner-wrapper #content-block #content h4,
+#content-outer-wrapper #content-inner-wrapper #content-block #content h4{
+	-webkit-font-smoothing: antialiased;
+	line-height: normal;
+	font-family: 'SentinelSemiBold',Verdana, Times New Roman, serif;
+	color: rgba(20,20,20,1);
+	font-size: 1.35em;
+	font-weight: 500;
+	padding: 0.5em 0 0.5em 0;
+	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content h5,
-#content-outer-wrapper #content-inner-wrapper #content-block #content h6,
+#content-outer-wrapper #content-inner-wrapper #content-block #content h6{
+	-webkit-font-smoothing: antialiased;
+	line-height: normal;
+	font-family: 'SentinelSemiBold',Verdana, Times New Roman, serif;
+	color: rgba(0,0,0,1);
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 0.5em 0 0.5em 0;
+	}
+
+
 #content-outer-wrapper #content-inner-wrapper #content-block #right-rail div.right-rail-content h2{
 	font-size: 1.85em;
 	margin: 1.25em 0 0.25em 0;
@@ -429,22 +474,26 @@ em h6{
 /**
  * PAGER STYLING
  */
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager,
 ul.pager{
 	margin: 1.5em 0 0 0;
+	text-align: left;
 	}
 ul.pager li.pager-item,
 ul.pager li.pager-current,
+ul.pager li.pager-first,
+ul.pager li.pager-previous,
 ul.pager li.pager-next,
 ul.pager li.pager-last{
 	display: inline;
 	margin: 0;
 	padding: 0;
-	font-size: 1.2em;
+	font-size: 1em;
 	}
 ul.pager li.pager-current{
 	border: solid 1px #555;
 	background-color: #efefef;
-	padding: 7px 12px 7px 12px;
+	padding: 5px 7px 5px 7px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-o-border-radius: 3px;
@@ -452,13 +501,21 @@ ul.pager li.pager-current{
 	}
 ul.pager li.pager-item a{
 	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-item a,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-first a,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-previous a,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-current a,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-next a,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-last a,
 ul.pager li.pager-item a,
+ul.pager li.pager-first a,
+ul.pager li.pager-previous a,
 ul.pager li.pager-current a,
 ul.pager li.pager-next a,
 ul.pager li.pager-last a{
 	margin: 0;
 	display: inline-block;
-	padding: 0 12px 0 12px;
+	padding: 0 7px 0 7px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-o-border-radius: 3px;
@@ -473,13 +530,15 @@ ul.pager li.pager-last a{
 	transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-item a:hover,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-first a:hover,
+#content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-previous a:hover,
 #content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-next a:hover,
 #content-outer-wrapper #content-inner-wrapper #content-block #content ul.pager li.pager-last a:hover,
 ul.pager li.pager-item a:hover,
 ul.pager li.pager-next a:hover,
 ul.pager li.pager-last a:hover{
-	border: solid 1px #555;
-	background-color: #efefef;
+	border: solid 1px #999;
+	background-color: #f3f3f3;
 	text-decoration: none;
 	-moz-transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	-webkit-transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -488,8 +547,8 @@ ul.pager li.pager-last a:hover{
 	transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	}
 ul.pager li.pager-current:hover{
-	border: solid 1px #333;
-	background-color: #efefef;
+	border: solid 1px #999;
+	background-color: #f3f3f3;
 	}
 /**
  * VIEWS STYLES

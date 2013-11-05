@@ -20,11 +20,13 @@ regions[menu_main] = Main Navigation Menu
 regions[menu_main_software] = Main Menu - Software
 regions[menu_main_community] = Main Menu - Community
 regions[menu_main_join] = Main Menu - Join
-regions[home_banner] = Home page - Banner
-regions[home_buttons] = Home page - Buttons
-regions[home_button_left] = Home page - Button - Left
-regions[home_button_middle] = Home page - Button - Middle
-regions[home_button_right] = Home page - Button - Right
+
+regions[home_hero] = Home page - Hero Banner
+regions[home_spotlight] = Home page - Spotlight
+regions[home_feed_news] = Home page - News Feed
+regions[home_feed_twitter] = Home page - Twitter Feed
+
+
 regions[sidebar_left] = Left Sidebar
 regions[sidebar_right] = Right Rail (sidebar)
 regions[breadcrumb] = Breadcrumb
@@ -39,7 +41,16 @@ regions[footer_right_menu_software] = Footer - Site Map - Software
 regions[footer_right_menu_community] = Footer - Site Map - Community
 regions[footer_right_menu_join] = Footer - Site Map - Join
 regions[footer_copyright] = Footer - Copyright Line
-#regions[footer_right] = Footer - Right Block
+
+# regions[footer_right] = Footer - Right Block
+# regions[home_banner] = Home page - Banner
+# regions[home_buttons] = Home page - Buttons
+# regions[home_button_left] = Home page - Button - Left
+# regions[home_button_middle] = Home page - Button - Middle
+# regions[home_button_right] = Home page - Button - Right
+
+
+
 
 features[] = logo
 features[] = name

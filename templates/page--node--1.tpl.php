@@ -85,14 +85,9 @@
  */
 ?>
 <?php require_once('header.inc'); ?>
-<section id="banner-home">
-	<section class="content">
-		<div class="heading">
-			<h4>Keep your money in your mission</h4>
-		</div>
-	</section>
-</section>
-
+<?php if ($page['home_hero']): ?>
+<?php print render($page['home_hero']); ?>
+<?php endif; ?>
 <div id="home-content-outer-wrapper">
 <div id="home-ribbon">
 	<div class="content">
@@ -110,7 +105,14 @@
 				<a href="#" class="button">Try it!</a>
 			</li>
 		</ul>
+		<div id="home-feed-box-border-top"></div>
 		<div id="home-feed-box">
+		<div id="home-feed-news">
+			<?php if ($page['home_feed_news']): ?>
+			<?php print render($page['home_feed_news']); ?>
+			<?php endif; ?>
+<?php
+/***
 			<h3>Kuali News</h3>
 				<ul id="kuali-news-feed">
 					<li>
@@ -124,6 +126,13 @@
 						<span class="teaser">This minor version release of Rice includes many improvements to the Kuali Rapid Application Development (KRAD) Framework and several performance enhancements.</span>
 					</li>
 				</ul>
+***/
+?>
+		</div>
+		<div id="home-feed-twitter">
+		
+		
+		</div>
 				<div id="feed-switch">
 					<ul>
 						<li class="selected"><a href="#" id="news">Kuali News</a></li>
@@ -131,28 +140,12 @@
 					</ul>
 				</div>
 		</div>
-		
-		
 	</div>
-	
 	</div>
 <div id="home-content-inner-wrapper">
-	<section id="home-content" class="content">
-	<ul id="home-content-boxes" class="alt">
-		<li>
-			<a href="#"><img src="/sites/all/themes/kuali/images/home-content-wheeler.jpg" /></a>
-			<div class="content-box-content">
-				<h3>Learn how</h3>
-				<p>Kuali’s comprehensive suite of enterprise level software is helping colleges and universities around the world keep their money in their mission.</p>
-				<p><a href="#" class="button">Read more</a></p>
-			</div>
-		</li>
-	</ul>
-	</section>
+<?php if ($page['home_spotlight']): ?>
+<?php print render($page['home_spotlight']); ?>
+<?php endif; ?>
 </div>
-
-
-
-
 </div>
 <?php require_once('footer.inc'); ?>

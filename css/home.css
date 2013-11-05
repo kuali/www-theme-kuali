@@ -8,9 +8,21 @@ section#banner-home{
 	width: 100%;
 	height: 400px;
 	overflow: visible;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	/*
 	background: url(../images/banners/home-1.jpg) no-repeat top center;
 	background-size: cover;
-
+	*/
+	}
+section#banner-home .banner-home-img{
+	margin: 0 auto;
+	width: 100%;
+	width: auto;
+	min-width: 972px;
+	min-height: 402px;
+	
 	}
 section#banner-home .heading{
 	width: 972px;
@@ -219,18 +231,27 @@ section#home-content ul#home-content-boxes.alt li a img{
 	width: 100%;
 	height: auto;
 	}
-
 #home-content-outer-wrapper #home-feed-box{
 	width: 350px;
 	min-height: 500px;
 	background: #FFF;
 	border: solid 1px rgba(0, 0, 0, 0.4);
-	border-top: solid 8px rgba(162, 29, 33, 1.0);
+	border-top: none;
 	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
 	position: absolute;
 	top: -45px;
 	right: 0;
 	z-index: 10;
+	}
+#home-content-outer-wrapper #home-feed-box-border-top{
+	width: 352px;
+	/* border-top: solid 8px rgba(162, 29, 33, 1.0); */
+	position: absolute;
+	top: -53px;
+	right: 0;
+	height: 8px;
+	background: rgba(162, 29, 33, 1.0);
+	z-index: 15;
 	}
 #home-content-outer-wrapper #home-feed-box h3{
 	font-size: 1.75em;
@@ -243,42 +264,60 @@ section#home-content ul#home-content-boxes.alt li a img{
 	letter-spacing: 0.1em;
 	border-bottom: solid 1px #ababab;
 	}
-#home-content-outer-wrapper #home-feed-box ul#kuali-news-feed{
+#home-content-outer-wrapper #home-feed-box ul.kuali-news-feed{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	list-style-type: none;
 	margin: 0 20px 0 15px;
+	min-height: 330px;
 	}
-#home-content-outer-wrapper #home-feed-box ul#kuali-news-feed li{
+#home-content-outer-wrapper #home-feed-box ul.kuali-news-feed li{
 	margin: 0 0 1.5em 0;
 	}
-#home-content-outer-wrapper #home-feed-box ul#kuali-news-feed li span{
+#home-content-outer-wrapper #home-feed-box ul.kuali-news-feed li span{
 	display: block;
 	}
-#home-content-outer-wrapper #home-feed-box ul#kuali-news-feed li .date{
+#home-content-outer-wrapper #home-feed-box ul.kuali-news-feed li .date{
 	font-family: "PT Sans";
 	font-weight: normal;
 	font-size: 0.8em;
 	color: #999;
 	margin: 0 0 0.3em 0;
 	}
-#home-content-outer-wrapper #home-feed-box ul#kuali-news-feed li a{
+#home-content-outer-wrapper #home-feed-box ul.kuali-news-feed li a{
 	font-family: "PT Sans";
 	color: #990000;
 	padding: 0;
 	}
-#home-content-outer-wrapper #home-feed-box ul#kuali-news-feed li a:hover{
+#home-content-outer-wrapper #home-feed-box ul.kuali-news-feed li a:hover{
 	text-decoration: underline;
 	}
-#home-content-outer-wrapper #home-feed-box ul#kuali-news-feed li span.teaser{
+#home-content-outer-wrapper #home-feed-box ul.kuali-news-feed li span.teaser{
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	font-size: 0.92em;
+	font-size: 0.85em;
 	color: #777;
 	margin: 0.35em 0 0 0;
 	}
-
+#home-content-outer-wrapper #home-feed-box #home-feed-news .item-list{
+	position: relative;
+	border-top: solid 1px #c8c8c8;
+	padding: 0 0.5em 0 0.5em;
+	font-size: 0.9em;
+	}
+#home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager{
+	position: absolute;
+	left: 10px;
+	top: 0.5em;
+	margin: 0;
+	padding: 0;
+	}
+#home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager li a,
+#home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager li.pager-current{
+	padding: 2px;
+	}
 #home-content-outer-wrapper #home-feed-box #feed-switch{
 	position: absolute;
 	bottom: 0;

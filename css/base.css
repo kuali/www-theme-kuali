@@ -627,8 +627,6 @@ header #header-content #search input[type="submit"]{
 	width: 200px;
 	padding: 0;
 	margin: 0;
-	/*Temp*/
-	margin-top: 3px;
 	}
 #content-outer-wrapper #content-inner-wrapper #left-subnav ul{
 	padding: 20px 0 0 0;
@@ -808,12 +806,14 @@ header #header-content #search input[type="submit"]{
 	position: relative;
 	z-index: 2000;
 	font-weight: 200;
+	font-size: 1.1em;
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb ul{
 	padding: 1em 0 0.85em 0;
 	margin: 0;
 	list-style: none;
 	list-style-type: none;
+	padding: 0.5em 0 0.5em 0;
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb ul li{
 	padding: 0;
@@ -824,21 +824,27 @@ header #header-content #search input[type="submit"]{
 	padding: 0;
 	margin: 0;
 	display: inline;
+	color: #999;
+	border-bottom: solid 1px transparent;
+	transition: 0.25s all ease-in-out;
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb ul li a:hover,
 #content-outer-wrapper #content-inner-wrapper #breadcrumb ul li.breadcrumb-last a:hover{
-	text-decoration: underline;
-	background-color: #eaeaea;
+	text-decoration: none;
+	border-bottom: solid 1px;
 	color: #222;
+	transition: 0.25s all ease-in-out;
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb ul li:before {
 	font-size: 1.6em;
 	padding: 0 10px 18px 10px;
-	color: #666666;
+	color: #999;
 	content: "\00BB";
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb ul li.breadcrumb-last a{
 	color: #990000;
+	
+	color: #999;
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb ul li.breadcrumb-1:before {
 	content: "";
@@ -858,7 +864,7 @@ header #header-content #search input[type="submit"]{
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb #tabs_wrapper{
 	position: absolute;
-	top: 10px;
+	top: 2px;
 	right: 0;
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb #tabs_wrapper h2{
@@ -930,8 +936,13 @@ header #header-content #search input[type="submit"]{
 	position: relative;
 	z-index: 1800;
 	margin: 18px 0 10px 0;
-	margin: 18px 0 0 0;
+	margin: 12px 0 0 0;
 	padding: 0;
+	
+	
+	margin: 0;
+	
+	
 	}
 #content-outer-wrapper #content-inner-wrapper #title-block{
 	width: 100%;
@@ -965,6 +976,7 @@ header #header-content #search input[type="submit"]{
 #content-outer-wrapper #content-inner-wrapper #content-block #content{
 /* Actual content container */
 	position: relative;
+	padding-top: 1em;
 	padding-right: 2em;
 	}
 /* Full page content */

@@ -95,14 +95,6 @@ if (!empty($node_content['field_uses_subtheme']['#items']['0']['value']) && $nod
 ?>
 <div id="content-outer-wrapper">
         <div id="content-inner-wrapper">
-	        <?php if ($breadcrumb): ?>
-            <div id="breadcrumb">
-            	<?php print $breadcrumb; ?>
-            	<div id="tabs_wrapper">
-	            	<?php print render($tabs); ?>
-	            </div>
-            </div>
-            <?php endif; ?>              
             <?php if ($title): ?>
             <div id="title-block">
             <h1>
@@ -112,6 +104,14 @@ if (!empty($node_content['field_uses_subtheme']['#items']['0']['value']) && $nod
             	} else{  print $title; $software_page = FALSE;  }
             ?>
             </h1>
+	        <?php if ($breadcrumb): ?>
+            <div id="breadcrumb">
+            	<?php print $breadcrumb; ?>
+            	<div id="tabs_wrapper">
+	            	<?php print render($tabs); ?>
+	            </div>
+            </div>
+            <?php endif; ?>
             <div id="title-bar-bg"></div>
             </div>
             <?php endif; ?>
