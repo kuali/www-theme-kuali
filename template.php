@@ -20,6 +20,7 @@ function kuali_preprocess_html(&$variables) {
  */
  	if (drupal_is_front_page()) {
 	 	drupal_add_css(path_to_theme() . '/css/home.css', 'theme','all');
+	 	drupal_add_js(path_to_theme() . '/js/show_hide.js', 'file');	 	
 	 	$head_title['name'] = '';
 	}
 /**
@@ -262,11 +263,24 @@ function kuali_breadcrumb($variables) {
    }
    else {
      return NULL;
-     //return t("Kuali Home");
    }
  }
-
-
+/**
+ *  Add the "nolink" feature
+ */
+function kuali_menu_link(array $variables) {
+  $element = $variables['element'];
+  $sub_menu = '';
+  if ($element['#below']) {
+    $sub_menu = drupal_render($element['#below']);
+  }
+  if (strpos( $element['#href'], 'nolink')) {
+    $output = '<a href="#" class="nolink">' . $element['#title'] . '</a>';
+  } else {
+  $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+  }
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+}
 /**
  * Modify the default Drupal search field
  */
@@ -277,4 +291,21 @@ function kuali_form_alter(&$form, &$form_state, $form_id) {
 	$form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search Kuali') {this.value = '';}";
 	$form['search_block_form']['#attributes']['class'][] = "textfield";
 	$form['actions']['submit']['#attributes']['class'][] = "btn alt search";
+}
+
+function kuali_print_home_spotlight_img($img_type_toggle, $img_content_img, $img_content_youtube, $link_url){
+	if (!empty($link_url)){
+		print '<a href="'.$link_url.'">';
+	}
+	switch ($img_type_toggle){
+		case 'img':
+			print render ($img_content);
+		break;	
+		case 'youtube':
+		
+		break;
+	}
+	if (!empty($link_url)){
+		print '</a>';
+	}
 }

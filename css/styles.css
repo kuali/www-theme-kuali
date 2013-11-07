@@ -39,7 +39,18 @@
 		 url('../fonts/SentinelMedium/SentinelMedium.svg#SentinelMedium') format('svg');
 	font-weight: normal;
 	font-style: normal;
+	}
+/*
+@font-face {
+	font-family: 'SentinelMediumSmallCaps';
+	src: url('../fonts/SentinelMedium/SentinelMediumSmallCaps.eot');
+	src: url('../fonts/SentinelMedium/SentinelMediumSmallCaps.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/SentinelMedium/SentinelMediumSmallCaps.woff') format('woff'),
+		 url('../fonts/SentinelMedium/SentinelMediumSmallCaps.ttf') format('truetype'),
+		 url('../fonts/SentinelMedium/SentinelMediumSmallCaps.svg#SentinelMediumSmallCaps') format('svg');
+	font-weight: normal;
     }
+*/
 @font-face {
 	font-family: 'SentinelSemiBold';
 	src: url('../fonts/SentinelSemiBold/SentinelSemiBold.eot');
@@ -49,7 +60,7 @@
 		 url('../fonts/SentinelSemiBold/SentinelSemiBold.svg#SentinelSemiBold') format('svg');
 	font-weight: normal;
 	font-style: normal;
-    }
+	}
 @font-face {
 	font-family: 'SentinelBlack';
 	src: url('../fonts/SentinelBlack/SentinelBlack.eot');
@@ -59,7 +70,7 @@
 		 url('../fonts/SentinelBlack/SentinelBlack.svg#SentinelBlack') format('svg');
 	font-weight: normal;
 	font-style: normal;
-    }
+	}
 /**
  * BENTON SANS FAMILY
  */
@@ -72,7 +83,7 @@
 		 url('../fonts/BentonSans/benton-sans-regular/benton-sans-regular#BentonSansRegular') format('svg');
 	font-weight: normal;
 	font-style: normal;
-    }
+	}
 
 
 
@@ -206,25 +217,15 @@ em h6{
 	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content h2{
 	margin: 1.30em 0 0.35em 0;
-	color: rgba(145,150,157,1);
-	font-family: 'GothamBold',"Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
-	font-size: 2.4em;
 	-webkit-font-smoothing: antialiased;
-	font-weight: 400;
 	text-transform: uppercase;
 	line-height: normal;
 	padding-bottom: 0.12em;
-	
-	
-	
-	
-	
 	font-family: 'SentinelSemiBold',Verdana, Times New Roman, serif;
 	color: rgba(145,150,157,1);
 	font-size: 2.2em;
 	font-size: 2.3em;
-	font-weight: 300;
-	
+	font-weight: 300;	
 	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content h2.news{
 	margin: 0.55em 0 0.35em 0;
@@ -264,8 +265,6 @@ em h6{
 	font-weight: 600;
 	padding: 0.5em 0 0.5em 0;
 	}
-
-
 #content-outer-wrapper #content-inner-wrapper #content-block #right-rail div.right-rail-content h2{
 	font-size: 1.85em;
 	margin: 1.25em 0 0.25em 0;
@@ -339,7 +338,7 @@ em h6{
 	}
 #footer-outer-wrapper #copyright-wrapper,
 #footer-outer-wrapper #footer-content{
-	font-family: "Myriad Pro", "Calibri", "Trebuchet MS", arial, sans-serif;
+	font-family: "BentonSansRegular", "Myriad Pro", "Calibri", "Trebuchet MS", arial, sans-serif;
 	font-size: 0.95em;
 	line-height: normal;
 	height: auto;
@@ -351,9 +350,10 @@ em h6{
 	text-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
 	font-size: 1.65em;
 	font-weight: 300;
-	font-family: 'SentinelMedium','SentinelSemiBold',Verdana, Times New Roman, serif;
+	font-family: 'SentinelMedium','SentinelSemiBold',Georgia,Times New Roman, serif;
 	letter-spacing: 0.09em;
 	font-variant: small-caps;
+	
 	}
 #footer-outer-wrapper #footer-inner-wrapper #footer-content #footer-contact #social-network-connect h4 span{
 	margin-top: 0.2em;
@@ -416,7 +416,7 @@ em h6{
 	margin: 0;
 	}
 #footer-outer-wrapper #copyright-wrapper #copyright{
-	font-family: "Calibri", "Trebuchet MS", arial, sans-serif;
+	font-family: "BentonSansRegular","Calibri", "Trebuchet MS", arial, sans-serif;
 	color: #c9ac9a;
 	color: #ab8d7b;
 	text-transform: uppercase;

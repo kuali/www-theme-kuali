@@ -79,18 +79,49 @@
  */
 ?>
 <?php
-	// We hide the comments and links now so that we can render them later.
+	/**
+	 *  We hide the comments and links now so that we can render them later.
+	 */
+	hide($content['field_home_spotlight_img_toggle']);
 	hide($content['field_home_spotlight_img']);
+	hide($content['field_home_spotlight_youtube_vid']);
 	hide($content['field_home_spotlight_body']);
 	hide($content['field_destination_url']);
+	hide($content['field_image_destination_url']);
 	hide($content['field_spotlight_btn_txt']);
 	print render($content);
-	
 ?>
 <section id="home-content" class="content">
 	<ul id="home-content-boxes" class="alt">
 		<li>
-			<a href="#"><?php print render ($content['field_home_spotlight_img']); ?></a>
+			<?php
+			switch ($content['field_home_spotlight_img_toggle']['#items'][0]['value']){
+				case 'img':
+					if (!empty($content['field_image_destination_url']['#items'][0]['safe_value'])){
+						print '<a href="'.$content['field_image_destination_url']['#items'][0]['safe_value'].'">';
+						print render ($content['field_home_spotlight_img']);
+						print '</a>';
+					} else{
+						print render ($content['field_home_spotlight_img']);
+					}
+				break;	
+				case 'youtube':
+					$youtubeURL = $content['field_home_spotlight_youtube_vid']['#items'][0]['safe_value'];
+					if (substr($youtubeURL, 0,5) == 'https'){
+							$youtubeURL = str_replace('https', 'http', $youtubeURL);
+						}
+					if (substr($youtubeURL, 0,16) == 'http://youtu.be/'){
+						$youtubeURL = str_replace('http://youtu.be/', '', $youtubeURL);
+					}
+					if (substr($youtubeURL, 0,31) == 'http://www.youtube.com/watch?v='){
+						$youtubeURL = str_replace('http://www.youtube.com/watch?v=', '', $youtubeURL);
+					}
+					print '<iframe width="320" height="180" src="//www.youtube-nocookie.com/embed/'.$youtubeURL.'" frameborder="0" allowfullscreen></iframe>';
+				break;
+			}
+			if (!empty($content['field_image_destination_url']['#items'][0]['safe_value'])){
+			}
+			?>
 			<div class="content-box-content">
 				<h3><?php print $title; ?></h3>
 				<p><?php print $content['field_home_spotlight_body']['#items'][0]['safe_value']; ?></p>

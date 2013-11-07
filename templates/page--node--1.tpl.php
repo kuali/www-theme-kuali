@@ -96,13 +96,13 @@
 				<div class="icon"></div>
 				<h3>Kuali Days</h3>
 				<p>November 18&ndash;21<br>San Diego, CA</p>
-				<a href="#" class="button">Register</a>
+				<a href="/kd" class="button">Join us</a>
 			</li>
 			<li class="test-drive">
 				<div class="icon"></div>
 				<h3>Test Drives</h3>
 				<p>Try out Kuali ERP software now!</p>
-				<a href="#" class="button">Try it!</a>
+				<a href="/test-drives" class="button">Try it!</a>
 			</li>
 		</ul>
 		<div id="home-feed-box-border-top"></div>
@@ -111,32 +111,16 @@
 			<?php if ($page['home_feed_news']): ?>
 			<?php print render($page['home_feed_news']); ?>
 			<?php endif; ?>
-<?php
-/***
-			<h3>Kuali News</h3>
-				<ul id="kuali-news-feed">
-					<li>
-						<span class="date">September 26, 2013</span>
-						<a href="#">KCA rSmart Offers Complimentary Webinar on a Simpler, More Effective Solution for Grants Administration</a>
-						<span class="teaser">If you are currently managing your grants manually, with paper-based processes, disconnected point solutions, or homegrown databases, there’s a better way and it’s now affordable. </span>
-					</li>
-					<li>
-						<span class="date">August 19, 2013</span>
-						<a href="#">The Kuali Rice Team is Proud to Announce the Release of Kuali Rice 2.3</a>
-						<span class="teaser">This minor version release of Rice includes many improvements to the Kuali Rapid Application Development (KRAD) Framework and several performance enhancements.</span>
-					</li>
-				</ul>
-***/
-?>
 		</div>
-		<div id="home-feed-twitter">
-		
-		
+		<div id="home-feed-twitter" style="display: none;">
+			<?php if ($page['home_feed_twitter']): ?>
+			<?php print render($page['home_feed_twitter']); ?>
+			<?php endif; ?>
 		</div>
 				<div id="feed-switch">
 					<ul>
-						<li class="selected"><a href="#" id="news">Kuali News</a></li>
-						<li><a href="#" id="news">@Kuali</a></li>
+						<li class="selected"><a href="#" id="news" class="active" onclick="javascript:show_hide('news','home-feed-news','y'), show_hide('twitter','home-feed-twitter','n'), rmLink('news')"><span class="icon"></span>Kuali News</a></li>
+						<li><a href="#" id="twitter" onclick="javascript:show_hide('twitter','home-feed-twitter','y'), show_hide('news','home-feed-news','n'), rmLink('twitter')"><span class="icon"></span>@Kuali</a></li>
 					</ul>
 				</div>
 		</div>

@@ -79,15 +79,18 @@
  */
 ?>
     <?php
-      // We hide the comments and links now so that we can render them later.
-      hide($content['field_home_hero_img']);
-      hide($content['field_home_hero_txt']);
-      $vars['title'] = false;
+	// We hide the comments and links now so that we can render them later.
+	hide($content['field_home_hero_img']);
+	hide($content['field_home_hero_txt']);
+	hide($content['field_destination_url']);
+	hide($content['field_hero_btn_txt']);
+	$vars['title'] = false;
 ?>
 <section id="banner-home" style="background-image: url('/sites/default/files/home/hero/<?php print $field_home_hero_img[0]['filename'];  ?>');">
 	<section class="content">
 		<div class="heading">
 			<h4><?php print $content['field_home_hero_txt']['#items'][0]['safe_value']; ?></h4>
+			<a href="<?php print $content['field_destination_url']['#items'][0]['safe_value']; ?>" class="button"><?php print $content['field_hero_btn_txt']['#items'][0]['safe_value']; ?></a>
 		</div>
 	</section>
 </section>

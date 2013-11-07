@@ -87,19 +87,17 @@
 <div id="content-outer-wrapper">
     <div id="shadow-bottom">
         <div id="content-inner-wrapper">
-	        <?php if ($breadcrumb): ?>
+            <?php if ($title): ?>
+            <div id="title-block" class="rice">
+            <h1>Job Opportunities</h1>
+            </div>
+            <?php endif; ?>
+            <?php if ($breadcrumb): ?>
             <div id="breadcrumb">
             	<?php print $breadcrumb; ?>
             	<div id="tabs_wrapper">
 	            	<?php print render($tabs); ?>
 	            </div>
-            </div>
-            <div id="breadcrumb-spacer"></div>
-            <?php endif; ?>
-            <?php if ($title): ?>
-            <div id="title-block" class="rice">
-            <h1>Job Opportunities</h1>
-            <div id="title-bar-bg"></div>
             </div>
             <?php endif; ?>
             <nav id="left-subnav">

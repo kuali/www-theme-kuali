@@ -30,6 +30,11 @@ section#banner-home .heading{
 	margin: 0 auto;
 	position: absolute;
 	top: 230px;
+	vertical-align: bottom;
+	
+	
+	top: 170px;
+	height: auto;
 	}
 section#banner-home .heading h4{
 	width: 500px;
@@ -38,6 +43,30 @@ section#banner-home .heading h4{
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
 	font-size: 4em;
 	color: rgba(255,255,255,1.0);
+	}
+section#banner-home .heading .button{
+	margin: 1em 0 0 0;
+	font-size: 1.2em;
+	background: rgba(0,0,0,0.4);
+	}
+section#banner-home .heading .button:after{
+	background-color: rgba(0,0,0,0.25);
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	}
+section#banner-home .heading .button:hover:after{
+	background-color: rgba(0,0,0,0);
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	}
+section#banner-home .heading .button:hover{
+	background-color: rgba(0,0,0,0.65);
 	}
 
 
@@ -51,18 +80,14 @@ section#banner-home .heading h4{
 	width: auto;
 	background: #7d110c;
 	height: 200px;
-	
-	
-background: #7d110c;
-background: -moz-linear-gradient(top,  #7d110c 0%, #540805 6%, #7d110c 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d110c), color-stop(6%,#540805), color-stop(100%,#7d110c));
-background: -webkit-linear-gradient(top,  #7d110c 0%,#540805 6%,#7d110c 100%);
-background: -o-linear-gradient(top,  #7d110c 0%,#540805 6%,#7d110c 100%);
-background: -ms-linear-gradient(top,  #7d110c 0%,#540805 6%,#7d110c 100%);
-background: linear-gradient(to bottom,  #7d110c 0%,#540805 6%,#7d110c 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d110c', endColorstr='#7d110c',GradientType=0 );
-
-	
+	background: #7d110c;
+	background: -moz-linear-gradient(top,  #7d110c 0%, #540805 6%, #7d110c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d110c), color-stop(6%,#540805), color-stop(100%,#7d110c));
+	background: -webkit-linear-gradient(top,  #7d110c 0%,#540805 6%,#7d110c 100%);
+	background: -o-linear-gradient(top,  #7d110c 0%,#540805 6%,#7d110c 100%);
+	background: -ms-linear-gradient(top,  #7d110c 0%,#540805 6%,#7d110c 100%);
+	background: linear-gradient(to bottom,  #7d110c 0%,#540805 6%,#7d110c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d110c', endColorstr='#7d110c',GradientType=0 );
 	}
 #home-content-outer-wrapper #home-ribbon ul#ribbon-feature{
 	list-style: none;
@@ -124,9 +149,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d110c', end
 #home-content-outer-wrapper #home-ribbon ul#ribbon-feature li .button:after{
 	background-color: rgba(165, 79, 64, 1.0);
 	}
-
-
-
 #home-content-inner-wrapper{
 	width: auto;
 	background-color: rgba(239, 239, 239, 1.0);
@@ -222,10 +244,10 @@ section#home-content ul#home-content-boxes.alt li h3{
 	margin-top: 0;
 	}
 section#home-content ul#home-content-boxes.alt li p{
-	font-size: 1.25em;
+	font-size: 1.05em;
 	font-weight: 100;
 	margin: 0.65em 0 0.65em 0;
-	line-height: 1.2em;
+	line-height: 1.35em;
 	}
 section#home-content ul#home-content-boxes.alt li a img{
 	width: 100%;
@@ -263,6 +285,10 @@ section#home-content ul#home-content-boxes.alt li a img{
 	color: #444;
 	letter-spacing: 0.1em;
 	border-bottom: solid 1px #ababab;
+	}
+#home-content-outer-wrapper #home-feed-box #follow-button{
+	position: relative;
+	top: -15px;
 	}
 #home-content-outer-wrapper #home-feed-box ul.kuali-news-feed{
 	margin: 0;
@@ -314,6 +340,12 @@ section#home-content ul#home-content-boxes.alt li a img{
 	margin: 0;
 	padding: 0;
 	}
+#home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager li.pager-first,
+#home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager li.pager-previous,
+#home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager li.pager-next,
+#home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager li.pager-last{
+	display: none;
+	}
 #home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager li a,
 #home-content-outer-wrapper #home-feed-box #home-feed-news ul.pager li.pager-current{
 	padding: 2px;
@@ -334,7 +366,34 @@ section#home-content ul#home-content-boxes.alt li a img{
 #home-content-outer-wrapper #home-feed-box #feed-switch ul li{
 	float: left;
 	width: 49.85%;
+	}
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a{
 	border-top: solid 1px #ababab;
+	position: relative;
+	padding-left: 48px;
+	}
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a .icon{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	background-image: url(../images/home-feed-box-icon.png);
+	background-repeat: no-repeat;
+	background-size: 80px auto;
+	}
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a#news .icon{
+	background-position: bottom right;
+	}
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a#news.active .icon{
+	background-position: bottom left;
+	}
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a#twitter .icon{
+	background-position: top right;
+	}
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a#twitter.active .icon{
+	background-position: top left;
 	}
 #home-content-outer-wrapper #home-feed-box #feed-switch ul li:nth-last-child(1){
 	border-left: solid 1px #ababab;
@@ -349,17 +408,21 @@ section#home-content ul#home-content-boxes.alt li a img{
 	font-size: 1.3em;
 	color: #777;
 	display: block;
+	/*
 	transition: all 0.3s ease-in-out;
+	*/
 	}
 #home-content-outer-wrapper #home-feed-box #feed-switch a:hover{
 	background: #e0e0e0;
+	/*
 	transition: all 0.3s ease-in-out;
+	*/
 	}
-#home-content-outer-wrapper #home-feed-box #feed-switch ul li.selected{
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a.active{
 	border-top: none;
 	}
-#home-content-outer-wrapper #home-feed-box #feed-switch ul li.selected a,
-#home-content-outer-wrapper #home-feed-box #feed-switch ul li.selected a:hover{
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a.active,
+#home-content-outer-wrapper #home-feed-box #feed-switch ul li a.active:hover{
 	background: #FFF;
 	color: rgba(162, 29, 33, 1.0);
 	}

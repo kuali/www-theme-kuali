@@ -8,6 +8,8 @@
  			<?php endif; ?>
 		</nav>
 		<div id="search">
+<?php
+/***
 			<ul id="search-options">
 				<li>
 					<input type="radio" name="search-scope" id="search-scope-projects" class="search-option" value="projects">
@@ -18,6 +20,8 @@
 					<label for="search-scope-kuali">Kuali.org</label>
 				</li>
 			</ul>
+***/
+?>
 			<?php if ($page['menu_top']): ?>
 <?php print render($page['menu_top']); ?>
 <?php endif; ?>
