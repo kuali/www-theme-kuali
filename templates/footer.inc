@@ -3,24 +3,24 @@
 		<div id="footer-content">
 			<div id="footer-menu">
 			<ul>
-			<li><a href="/">Home</a>
-				<?php if ($page['footer_right_menu_home']): ?>
-				<?php print render($page['footer_right_menu_home']); ?>
+			<li><h6>Products</h6>
+				<?php if ($page['footer_right_menu_col_1']): ?>
+				<?php print render($page['footer_right_menu_col_1']); ?>
 				<?php endif; ?>
 			</li>
-			<li><a href="/software">Software</a>
-				<?php if ($page['footer_right_menu_software']): ?>
-				<?php print render($page['footer_right_menu_software']); ?>
+			<li><h6>Foundation</h6>
+				<?php if ($page['footer_right_menu_col_2']): ?>
+				<?php print render($page['footer_right_menu_col_2']); ?>
 				<?php endif; ?>
 			</li>
-			<li><a href="/community">Community</a>
-				<?php if ($page['footer_right_menu_community']): ?>
-				<?php print render($page['footer_right_menu_community']); ?>
+			<li><h6>Support</h6>
+				<?php if ($page['footer_right_menu_col_3']): ?>
+				<?php print render($page['footer_right_menu_col_3']); ?>
 				<?php endif; ?>
 			</li>
-			<li><a href="/join">Join</a>
-				<?php if ($page['footer_right_menu_join']): ?>
-				<?php print render($page['footer_right_menu_join']); ?>
+			<li><h6>Get Started</h6>
+				<?php if ($page['footer_right_menu_col_4']): ?>
+				<?php print render($page['footer_right_menu_col_4']); ?>
 				<?php endif; ?>
 			</li>
 			</ul>
