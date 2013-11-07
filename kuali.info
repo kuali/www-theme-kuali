@@ -14,19 +14,12 @@ stylesheets[print][] = css/print.css
 scripts[] = js/jquery-1.4.2.min.js
 scripts[] = js/slideshow.js
 scripts[] = js/slideshow_start.js
-
 regions[menu_top] = Top Menu
 regions[menu_main] = Main Navigation Menu
-regions[menu_main_software] = Main Menu - Software
-regions[menu_main_community] = Main Menu - Community
-regions[menu_main_join] = Main Menu - Join
-
 regions[home_hero] = Home page - Hero Banner
 regions[home_spotlight] = Home page - Spotlight
 regions[home_feed_news] = Home page - News Feed
 regions[home_feed_twitter] = Home page - Twitter Feed
-
-
 regions[sidebar_left] = Left Sidebar
 regions[sidebar_right] = Right Rail (sidebar)
 regions[breadcrumb] = Breadcrumb
@@ -36,10 +29,10 @@ regions[sectionpage_button_bottom] = Tier 2 Button - Bottom
 regions[sectionpage_bottom] = Tier 2 Section Page Bottom
 regions[content] = Content
 regions[footer_left] = Footer - Left Block
-regions[footer_right_menu_home] = Footer - Site Map - Home
-regions[footer_right_menu_software] = Footer - Site Map - Software
-regions[footer_right_menu_community] = Footer - Site Map - Community
-regions[footer_right_menu_join] = Footer - Site Map - Join
+regions[footer_right_menu_col_1] = Footer - Menu - Column 1
+regions[footer_right_menu_col_2] = Footer - Menu - Column 2
+regions[footer_right_menu_col_3] = Footer - Menu - Column 3
+regions[footer_right_menu_col_4] = Footer - Menu - Column 4
 regions[footer_copyright] = Footer - Copyright Line
 
 # regions[footer_right] = Footer - Right Block
@@ -48,9 +41,9 @@ regions[footer_copyright] = Footer - Copyright Line
 # regions[home_button_left] = Home page - Button - Left
 # regions[home_button_middle] = Home page - Button - Middle
 # regions[home_button_right] = Home page - Button - Right
-
-
-
+# regions[menu_main_software] = Main Menu - Software
+# regions[menu_main_community] = Main Menu - Community
+# regions[menu_main_join] = Main Menu - Join
 
 features[] = logo
 features[] = name
