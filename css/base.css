@@ -194,11 +194,13 @@ span.link_arrow{
 /**
  *  BUTTONS
  */
-.button {
+.btn,
+.button{
 	display: inline-block;
 	position: relative;
 	padding: 11px 40px 9px 10px;
 	font-size: 0.875em;
+	font-size: 14px;
 	font-family: "GothamLight", "GothamLight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -212,6 +214,7 @@ span.link_arrow{
 	background:  rgba(97,176,151,.77);	
 	background: rgba(100,100,100,0.70);
 	}
+.btn:after,
 .button:after {
 	content: "";
 	display: block;
@@ -225,6 +228,7 @@ span.link_arrow{
 	background-repeat: no-repeat;
 	background-position: center center;
 	}
+.btn:hover
 .button:hover {
 	background-color: #61b097;
 	background-color: rgba(97,176,151,1);

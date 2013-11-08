@@ -290,9 +290,8 @@ function kuali_form_alter(&$form, &$form_state, $form_id) {
 	$form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search Kuali';}";
 	$form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search Kuali') {this.value = '';}";
 	$form['search_block_form']['#attributes']['class'][] = "textfield";
-	$form['actions']['submit']['#attributes']['class'][] = "btn alt search";
+	$form['actions']['submit']['#attributes']['class'][] = "button search";
 }
-
 function kuali_print_home_spotlight_img($img_type_toggle, $img_content_img, $img_content_youtube, $link_url){
 	if (!empty($link_url)){
 		print '<a href="'.$link_url.'">';
