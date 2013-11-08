@@ -228,7 +228,7 @@ span.link_arrow{
 	background-repeat: no-repeat;
 	background-position: center center;
 	}
-.btn:hover
+.btn:hover,
 .button:hover {
 	background-color: #61b097;
 	background-color: rgba(97,176,151,1);
