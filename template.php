@@ -285,7 +285,7 @@ function kuali_menu_link(array $variables) {
  * Modify the default Drupal search field
  */
 function kuali_form_alter(&$form, &$form_state, $form_id) {
-	$form['actions']['submit']['#value'] = t('Go'); // Change the text on the submit button
+	//$form['actions']['submit']['#value'] = t('Go'); // Change the text on the submit button
 	$form['search_block_form']['#attributes']['value'] = "Search Kuali";
 	$form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search Kuali';}";
 	$form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search Kuali') {this.value = '';}";
