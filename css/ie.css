@@ -94,7 +94,7 @@ html #header-wrapper #header-content #about-wrapper{
  *  FOOTER
  */
 #footer-outer-wrapper{
-	bottom: 40px;
+	/* bottom: 40px; */
 	}
 #footer-outer-wrapper #footer-inner-wrapper #footer-content #footer-contact #social-network-connect hr{
 	display: none;

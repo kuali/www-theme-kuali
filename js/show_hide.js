@@ -10,12 +10,13 @@ function show_hide(tab,id,x) {
 		case "y":
 		var value = item.style.display = '';
 		item.style.display = value;
-		tab.classList.add('active');
+		//tab.classList.add('active');
+		tab.className = tab.className + " active";
 		break;
 		case "n":
 		var value = item.style.display = 'none';
 		item.style.display = value;
-		//item.className = "";
-		tab.classList.remove('active');
+		//tab.classList.remove('active');
+		tab.className = "";
 	}
 }

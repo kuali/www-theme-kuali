@@ -26,23 +26,21 @@ section#banner-home .banner-home-img{
 	}
 section#banner-home .heading{
 	width: 972px;
-	height: 400px;
 	margin: 0 auto;
 	position: absolute;
 	top: 230px;
-	vertical-align: bottom;
-	
-	
 	top: 170px;
+	vertical-align: bottom;
 	height: auto;
 	}
 section#banner-home .heading h4{
-	width: 500px;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	width: 600px;
+	font-family: 'Helvetica Neue', "BentonSansRegular", Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
 	font-size: 4em;
 	color: rgba(255,255,255,1.0);
+	font-style: normal;
 	}
 section#banner-home .heading .button{
 	margin: 1em 0 0 0;
@@ -240,6 +238,9 @@ section#home-content ul#home-content-boxes.alt li  .content-box-content{
 	top: 0;
 	left: 56%;
 	}
+section#home-content ul#home-content-boxes li  .content-box-content a.button{
+	padding-right: 10px;
+	}
 section#home-content ul#home-content-boxes.alt li h3{
 	margin-top: 0;
 	}
@@ -286,6 +287,13 @@ section#home-content ul#home-content-boxes.alt li a img{
 	letter-spacing: 0.1em;
 	border-bottom: solid 1px #ababab;
 	}
+#home-content-outer-wrapper #home-feed-box h3 a{
+	font-weight: 100;
+	color: #444;
+	}
+#home-content-outer-wrapper #home-feed-box h3 a:hover{
+	color: #990000;
+	}
 #home-content-outer-wrapper #home-feed-box #follow-button{
 	position: relative;
 	top: -15px;
@@ -297,6 +305,9 @@ section#home-content ul#home-content-boxes.alt li a img{
 	list-style-type: none;
 	margin: 0 20px 0 15px;
 	min-height: 330px;
+	height: 380px;
+	overflow: scroll;
+	width: 325px;
 	}
 #home-content-outer-wrapper #home-feed-box ul.kuali-news-feed li{
 	margin: 0 0 1.5em 0;

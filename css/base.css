@@ -87,11 +87,13 @@ body {
 body.home {
 	background-color: rgba(247, 247, 247, 1.0);
 	}
+/*
 select {
 	color: #fff;
 	color: rgba(255,255,255,.85);
 	background: #df4747;
 	}
+*/
 ::-moz-selection {
 	color: #fff;
 	/*
@@ -195,7 +197,10 @@ span.link_arrow{
  *  BUTTONS
  */
 .btn,
-.button{
+.button,
+.button input,
+input[type="button"],
+input[type="submit"]{
 	display: inline-block;
 	position: relative;
 	padding: 11px 40px 9px 10px;
@@ -210,17 +215,23 @@ span.link_arrow{
 	-moz-transition: all .25s ease;
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
-	transition: all .25s ease;	
-	background:  rgba(97,176,151,.77);	
+	transition: all .25s ease;
+	background:  rgba(97,176,151,.77);
 	background: rgba(100,100,100,0.70);
+	border: none;
+	outline: none;
 	}
 .btn:after,
-.button:after {
+.button:after,
+.button input:after,
+input[type="button"]:after,
+input[type="submit"]:after{
 	content: "";
 	display: block;
 	height: 100%;
 	width: 30px;
 	position: absolute;
+	z-index: 5;
 	right: 0;
 	top: 0;
 	background-color: rgba(110, 110, 110, 1.0);
