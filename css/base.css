@@ -638,6 +638,8 @@ header #header-content #search input[type="submit"]{
 #content-outer-wrapper #content-inner-wrapper #left-subnav{
 	position: absolute;
 	left: 0;
+	top : 0;
+	top: 105px;
 	padding-right: 20px;
 	width: 200px;
 	padding: 0;
@@ -665,7 +667,7 @@ header #header-content #search input[type="submit"]{
 	list-style-type: none;
 	}
 #content-outer-wrapper #content-inner-wrapper #left-subnav ul li a{
-	padding: 0.55em 2px 0.65em 20px;
+	padding: 0.55em 10px 0.65em 20px;
 	text-decoration: none;
 	display: block;
 	color: #777;
@@ -684,7 +686,7 @@ header #header-content #search input[type="submit"]{
 #content-outer-wrapper #content-inner-wrapper #left-subnav ul li.active-trail.expanded a,
 #content-outer-wrapper #content-inner-wrapper #left-subnav ul li.active-trail.expanded a.active
 {
-	padding: 0.55em 2px 0.65em 20px;
+	padding: 0.55em 10px 0.65em 20px;
 	color: #FFF;
 	position: relative;
 	display: block;	
