@@ -390,7 +390,9 @@ header #header-content h1 a{
 	display: block;
 	width: auto;
 	height: 53px;
-	background: url(../images/kuali-logo.png) no-repeat top left;
+	background: url(../images/kuali-logo.png);
+	background-repeat: no-repeat;
+	background-position: top left;
 	background-size: 85% auto;
 	}
 header #header-content h1 a span{
@@ -733,7 +735,6 @@ header #header-content #search input[type="submit"]{
 	background: none;
 	}
 #content-outer-wrapper #content-inner-wrapper #left-subnav ul li.active-trail.expanded ul li{
-	border-left: solid 1px #e7e7e7;
 	border-left: solid 1px #e0e0e0;
 	margin: 0;
 	padding: 0;

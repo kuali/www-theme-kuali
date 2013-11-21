@@ -10,6 +10,7 @@ stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/special.css
 stylesheets[all][] = css/tablet.css
+stylesheets[all][] = css/media-queries.css
 stylesheets[print][] = css/print.css
 scripts[] = js/jquery-1.4.2.min.js
 scripts[] = js/slideshow.js
