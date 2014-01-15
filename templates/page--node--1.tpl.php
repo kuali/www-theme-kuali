@@ -91,20 +91,7 @@
 <div id="home-content-outer-wrapper">
 <div id="home-ribbon">
 	<div class="content">
-		<ul id="ribbon-feature" class="clearfix">
-			<li class="event">
-				<div class="icon"></div>
-				<h3>Kuali Days</h3>
-				<p>November 18&ndash;21<br>San Diego, CA</p>
-				<a href="/kd" class="button">Join us</a>
-			</li>
-			<li class="test-drive">
-				<div class="icon"></div>
-				<h3>Test Drives</h3>
-				<p>Try out Kuali ERP software now!</p>
-				<a href="/test-drives" class="button">Try it!</a>
-			</li>
-		</ul>
+		<?php print render($page['home_ribbon']); ?>
 		<div id="home-feed-box-border-top"></div>
 		<div id="home-feed-box">
 		<div id="home-feed-news">

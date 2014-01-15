@@ -17,6 +17,7 @@ scripts[] = js/slideshow_start.js
 regions[menu_top] = Top Menu
 regions[menu_main] = Main Navigation Menu
 regions[home_hero] = Home page - Hero Banner
+regions[home_ribbon] = Home page - Ribbon Content
 regions[home_spotlight] = Home page - Spotlight
 regions[home_feed_news] = Home page - News Feed
 regions[home_feed_twitter] = Home page - Twitter Feed
