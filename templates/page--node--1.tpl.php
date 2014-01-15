@@ -94,9 +94,9 @@
 		<ul id="ribbon-feature" class="clearfix">
 			<li class="event">
 				<div class="icon"></div>
-				<h3>Kuali Days</h3>
-				<p>November 18&ndash;21<br>San Diego, CA</p>
-				<a href="/kd" class="button">Join us</a>
+				<h3>Kuali Community Workshop</h3>
+				<p>April 28&ndash;May 2<br>Buckhead, GA</p>
+				<a href="/kcw" class="button">Join us</a>
 			</li>
 			<li class="test-drive">
 				<div class="icon"></div>
