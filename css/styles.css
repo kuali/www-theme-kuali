@@ -274,12 +274,6 @@ em h6{
 	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
 	}
-#content-outer-wrapper #content-inner-wrapper #content-block #content h5,
-#content-outer-wrapper #content-inner-wrapper #content-block #content h6{
-	font-family: 'GothamMedium',"Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
-	font-weight: 400;
-	font-size: 1.4em;
-	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content h6{
 	color: rgba(145,150,157,1);
 	color: rgba(101, 106, 114, 1.0);
@@ -394,7 +388,6 @@ em h6{
 #content-outer-wrapper #content-inner-wrapper #content-block #right-rail p{
 	margin: 1em 0 1em 0;
 	} 
-#content-outer-wrapper #content-inner-wrapper #content-block #right-rail div.right-rail-content
 #content-outer-wrapper #content-inner-wrapper #content-block #right-rail div.right-rail-content h3,
 #content-outer-wrapper #content-inner-wrapper #content-block #right-rail div.right-rail-content h4{
 	margin: 1.25em 0 0.25em 0;
