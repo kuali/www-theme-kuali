@@ -200,6 +200,16 @@ em h6{
 	background: none !important;
 	border-bottom: none !important;
 	}
+/* REMOVE STYLES FOR BUTTONS */
+#content-outer-wrapper #content-inner-wrapper #content-block #content a.button{
+	border: none;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content a.button:hover{
+	border-bottom: none;
+	background: rgba(110, 110, 110, 1.0);
+	text-decoration: none;
+	color: rgba(255,255,255,1.0);	
+	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content p,
 #content-outer-wrapper #content-inner-wrapper #content-block #content ul,
 #content-outer-wrapper #content-inner-wrapper #content-block #content ol{
