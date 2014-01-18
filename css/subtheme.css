@@ -90,10 +90,11 @@
 	top: 290px;
 	}
 #content-outer-wrapper #content-inner-wrapper #breadcrumb{
-	position: static;
+	position: relative;
+	background: #FFF;
 	}
-#content-outer-wrapper #content-inner-wrapper #breadcrumb-spacer{
-	padding-top: 0;
+#content-outer-wrapper #content-inner-wrapper #left-subnav{
+	top: 130px;
 	}
 /**
  * NEW STYLES
