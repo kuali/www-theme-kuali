@@ -275,6 +275,14 @@ em h6{
 	font-weight: 400;
 	padding: 0.5em 0 0.5em 0;
 	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content h1.top,
+#content-outer-wrapper #content-inner-wrapper #content-block #content h2.top,
+#content-outer-wrapper #content-inner-wrapper #content-block #content h3.top,
+#content-outer-wrapper #content-inner-wrapper #content-block #content h4.top,
+#content-outer-wrapper #content-inner-wrapper #content-block #content h5.top,
+#content-outer-wrapper #content-inner-wrapper #content-block #content h6.top{
+	margin-top: 0.5em !important;
+	}
 #content-outer-wrapper #content-inner-wrapper #content-block #right-rail div.right-rail-content h2{
 	font-size: 1.85em;
 	margin: 1.25em 0 0.25em 0;
