@@ -121,7 +121,7 @@ h5 strong,
 strong h5,
 h6 strong,
 strong h6{
-	font-weight: inherit;
+	font-weight: inherit !important;
 	}
 h1 em,
 em h1,
@@ -152,13 +152,10 @@ em h6{
 	position: relative;
 	z-index: 1800;
 	display: block;
-	font-family: 'SentinelBlack','ChunkFive','Georgia',serif;
 	font-weight: 500;
 	font-size: 3.52em;
 	padding: 10px 0 7px 15px;
-	
-	
-	
+		
 	font-family: 'SentinelSemiBold','SentinelBlack','ChunkFive','Georgia',serif;
 	background: none;
 	border: none;
@@ -166,10 +163,6 @@ em h6{
 	margin: 20px 0 0 0;
 	padding: 0 0 12px 0;
 	border-bottom: solid 1px #ccc;
-	
-	
-	
-	
 	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content{
 	font-size: 0.875em;
@@ -182,6 +175,10 @@ em h6{
 #content-outer-wrapper #content-inner-wrapper #content-block #content a{
 	text-decoration: none;
 	border-bottom: dotted 1px;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block strong,
+#content-outer-wrapper #content-inner-wrapper #content-block #content strong{
+	font-weight: bold;
 	}
 #content-outer-wrapper #content-inner-wrapper #content-block #content a:hover{
 	color: #222;
