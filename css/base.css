@@ -1361,6 +1361,7 @@ header #header-content #search input[type="submit"]{
 #footer-outer-wrapper #footer-inner-wrapper #footer-content #footer-contact #social-network-connect{
 	margin: 1em 0 3em 0;
 	padding: 1.2em 0 0 0;
+	position: absolute;
 	}
 #footer-outer-wrapper #footer-inner-wrapper #footer-content #footer-contact #social-network-connect ul,
 #footer-outer-wrapper #footer-inner-wrapper #footer-content #footer-contact #social-network-connect ul li{
