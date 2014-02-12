@@ -23,8 +23,11 @@
 ***/
 ?>
 			<?php if ($page['menu_top']): ?>
-<?php print render($page['menu_top']); ?>
-<?php endif; ?>
+			<?php print render($page['menu_top']); ?>
+			<?php endif; ?>
 		</div>
+<?php if ($page['alert_banner']): ?>
+<?php print render($page['alert_banner']); ?>
+<?php endif; ?>
 	</div>
 </header>
