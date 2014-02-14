@@ -29,6 +29,7 @@ regions[sectionpage_header] = Tier 2 Section Page Top
 regions[sectionpage_button_top] = Tier 2 Button - Top
 regions[sectionpage_button_bottom] = Tier 2 Button - Bottom
 regions[sectionpage_bottom] = Tier 2 Section Page Bottom
+regions[content_tabmenu] = Tab Menu
 regions[content] = Content
 regions[footer_left] = Footer - Left Block
 regions[footer_right_menu_col_1] = Footer - Menu - Column 1
