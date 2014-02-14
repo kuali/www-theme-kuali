@@ -78,6 +78,11 @@
  * @see template_process()
  */
 ?>
+<?php
+if (strpos($classes, 'node-unpublished')){
+	print '<div class="unpublished-alert '.$classes.'">Unpublished</div>';	
+}
+?>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['field_category_event']);

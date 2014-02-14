@@ -609,3 +609,24 @@ div.webform-component .form-type-select{
 	line-height: normal;
 	border: solid 1px #CECECE;
 	}
+/**
+ * UNPUBLISHED NODE ALERT
+ */
+#content-outer-wrapper #content-inner-wrapper #content-block #content .unpublished-alert{
+	background: none;
+	background: rgba(248, 235, 223, 1.0);
+	font-family: 'Gotham',"Helvetica Neue",Helvetica,Calibri,Arial,clean,sans-serif;
+	font-size: 1.2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 4px 0 3px 15px;
+	color: rgba(212, 111, 28, 1.0);
+	border: solid 2px rgba(212, 111, 28, 1.0);
+	border-left: solid 20px rgba(212, 111, 28, 1.0);
+	margin: 0 0 1em 0;
+	display: none;
+	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content .unpublished-alert.node-unpublished{
+	display: block;
+	}

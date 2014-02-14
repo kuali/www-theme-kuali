@@ -78,6 +78,11 @@
  * @see template_process()
  */
 ?>
+<?php
+if (strpos($classes, 'node-unpublished')){
+	print '<div class="unpublished-alert '.$classes.'">Unpublished</div>';	
+}
+?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
