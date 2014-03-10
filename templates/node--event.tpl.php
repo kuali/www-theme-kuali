@@ -98,7 +98,7 @@ if (strpos($classes, 'node-unpublished')){
 		print '<h2>'.$title.'</h2>';
 		print '<p>'.render($content['field_description']).'</p>';
 		print '<h3>Sessions for this course</h3>';
-		print views_embed_view('training','training_events_per_course', $node->nid);
+		print views_embed_view('Training','training_events_per_course', $node->nid);
 		print '<div class="spacer"></div>';
 		print render($content);
 ?>
