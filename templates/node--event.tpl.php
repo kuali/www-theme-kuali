@@ -83,33 +83,27 @@ if (strpos($classes, 'node-unpublished')){
 	print '<div class="unpublished-alert '.$classes.'">Unpublished</div>';	
 }
 ?>
-    <?php
-      // We hide the comments and links now so that we can render them later.
-      hide($content['field_category_event']);
-      hide($content['field_software']);
-      hide($content['field_software']);
-      hide($content['field_skill_level']);
-      hide($content['field_organization']);
-      hide($content['field_description']);
-      hide($content['field_event_status']);
-      hide($content['field_right_rail_content']);
-      
-      print '<h2>'.$title.'</h2>';
-      
-      print render($content);
-      
-      print '<h3>Sessions for this course</h3>';
-      
-      print views_embed_view('training','training_events_per_course', $node->nid);
-      
-      
-      //print render($content['field_right_rail_content']);
-    ?>
-  </div>
-
-<div id="right-rail">
+<?php
+		// We hide the comments and links now so that we can render them later.
+		hide($content['field_category_event']);
+		hide($content['field_description']);
+		hide($content['field_software']);
+		hide($content['field_software']);
+		hide($content['field_skill_level']);
+		hide($content['field_organization']);
+		hide($content['field_description']);
+		hide($content['field_event_status']);
+		hide($content['field_right_rail_content']);
+		
+		print '<h2>'.$title.'</h2>';
+		print '<p>'.render($content['field_description']).'</p>';
+		print '<h3>Sessions for this course</h3>';
+		print views_embed_view('training','training_events_per_course', $node->nid);
+		print '<div class="spacer"></div>';
+		print render($content);
+?>
+<div id="right-rail" class="content-contain">
 <div class="right-rail-content">
-
 <h4><?php print render ($content['field_category_event']['#title']); ?></h4>
 <?php print render($content['field_category_event']); ?>
 
@@ -119,11 +113,8 @@ if (strpos($classes, 'node-unpublished')){
 <h4><?php print render ($content['field_skill_level']['#title']); ?></h4>
 <?php print render($content['field_skill_level']); ?>
 
-
 <h4><?php print render ($content['field_organization']['#title']); ?></h4>
 <?php print render($content['field_organization']); ?>
 <hr />
-
 </div>
 </div>
-

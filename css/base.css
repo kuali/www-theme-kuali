@@ -1044,6 +1044,9 @@ header #header-content #search input[type="submit"]{
 	background-position: 0 0;
 	padding: 1.25em 15px 0 15px;
 	}
+#content-outer-wrapper #content-inner-wrapper #content-block #content.event{
+	position: static;
+	}
 #content-outer-wrapper #content-inner-wrapper #content-block #right-rail div.right-rail-content{
 	height: 300px;
 	width: 100%;

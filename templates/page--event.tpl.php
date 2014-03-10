@@ -102,7 +102,7 @@
             </nav>
         <?php endif; ?>
             <div id="content-block" class="right-rail-present-outer<?php if ($page['sidebar_left']) { print ' left-subnav '; } ?>">
-                <section id="content" class="right-rail-present-inner">
+                <section id="content" class="right-rail-present-inner event">
                 <?php print render($page['content']); ?>
                 </section>
             <div class="clear"></div>
